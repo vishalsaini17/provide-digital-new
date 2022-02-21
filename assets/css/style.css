@@ -1,0 +1,116 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+:root {
+  --bs-body-font-family: 'Sofia Pro', sans-serif;
+  --bs-primary-rgb: 243, 252, 249
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.h2 {
+  font-size: 84px;
+}
+
+.bg-gray {
+  background-color: #E7ECC1;
+}
+
+.title-2 {
+  color: #1A65CB;
+  font-size: 84px;
+  line-height: 101px;
+  font-weight: 700;
+}
+
+.subtitle{
+  color: #A1A1A1;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+/* ------------------------------------------------------ */
+
+.main-navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-nav .navbar-brand {
+  display: block;
+  max-width: 196px;
+}
+
+.banner {
+  min-height: 100vh;
+}
+
+.vision-mission-value .img {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 138px;
+  padding: 35px;
+}
+
+
+/* footer */
+
+.main-footer {
+  background-color: #F3F9FF;
+  font-size: 28px;
+  line-height: 70px;
+}
+
+.main-footer a{
+  text-decoration: none;
+}
+
+.footer-menu {
+  min-width: 245px;
+  margin-inline: auto;
+}
+
+.footer-menu a {
+  color: #515151;
+  font-size: 28px;
+  line-height: 70px;
+}
+
+.footer-title {
+  font-size: 30px;
+  line-height: 48px;
+  color: #10386E;
+  font-weight: 700;
+}
+
+.footer-logo {
+  width: 100%;
+  max-width: 245px;
+}
+
+.footer-bottom {
+  background-color: #C8D9E9;
+  font-size: 30px;
+  line-height: 48px;
+  color: #10386E;
+  font-weight: 300;
+  padding-block: 35px;
+}
+
+.footer-bottom .copyright {
+  font-weight: 500;
+}
+
+.footer-bottom a {
+  color: inherit;
+  font-weight: 300;
+}
+
+@media(min-width: 992px) {
+  .navbar-expand-lg .nav-item {
+    margin-inline: 44px;
+  }
+}
