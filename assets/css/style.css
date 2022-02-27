@@ -423,6 +423,244 @@ ul {
   color: #1A65CB;
 }
 
+/* About page Css starts */
+
+.banner-section{
+  height: 680px;
+  display: flex;
+  align-items: center;
+}
+.products-about-sec{
+  height: 100%;
+  display: inline-grid;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.subtitle-about{
+  color: #A1A1A1;
+  font-size: 2.1rem;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+/* Tab design css about page */
+
+.tabmenu-section{
+  padding: 2rem 3rem;
+}
+
+
+.tab-step-1, .tab-step-2, .tab-step-3{
+  /* width: 468px; */
+  width: 100%;
+  height: 224px;
+  background-color: #F9F7E7 !important;
+  margin: 10px 0px;
+  border-radius: 16px !important;
+}
+ button.nav-link.active.tab-step-1{
+  background-color: #F1F4F3 !important;
+}
+button.nav-link.active.tab-step-2{
+  background-color: #F1F4F3 !important;
+}
+button.nav-link.active.tab-step-3{
+  background-color: #F1F4F3 !important;
+}
+
+.button-color{
+  color:#1A65CB;
+  font-size: 2.1rem;
+  
+}
+.inner-textsub{
+  color: #7C7D7D;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.border-line{
+  border-top:1px dashed #1A65CB;
+  width: 100%;
+  position: absolute;
+  top:100px;
+}
+.border-line-2{
+  border-top:1px dashed #1A65CB;
+  width: 100%;
+  position: absolute;
+  top:325px;
+}
+.border-line-3{
+  border-top:1px dashed #1A65CB;
+  width: 100%;
+  position: absolute;
+  top:575px;
+}
+.head-content{
+  color: #1A65CB;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.parent-content {
+  padding: 20px 10px 10px 35px;
+}
+
+.round-image{
+  width: 150px;
+  height: 150px;
+  border: 1px solid #707070;
+  border-radius: 50%;
+}
+/* direction about Css  */
+
+.heading-map h3{
+  color: #004DB5;
+  font-size: 2rem;
+}
+.heading-map p{
+  font-size: 1.2rem;
+  color: #7C7D7D;
+  line-height: 2.2;
+  margin-top: 2px;
+}
+
+.left-profile-director{
+  padding: 2rem 0rem;
+  margin-top: 3rem;
+}
+
+.left-profile-director h3{
+  font-size: 3rem;
+  color: #1A65CB;
+  font-weight: 400 !important;
+
+}
+.left-profile-director h6{
+  color: #6A6A6A;
+  font-size: 1.4rem;
+}
+.director-words{
+  padding: 1rem 1rem 1rem 3rem ;
+}
+.right-profile-content{
+  color: #6A6A6A;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2;
+  margin-top: 4rem;
+}
+.custum-btn-about{
+  background: #FF4A64 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.7rem;
+  padding: 0.9rem 2.8rem 0.5rem 2.8rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prfile-parent{
+  padding: 2.5rem 0rem;
+}
+.scroll-parent{
+  height: 600px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+  width: 100%;
+}
+.scroll-parent::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* get -in -Touch css starts */
+.get-in-touch-parent{
+  min-height: 550px;
+  background-color: #f3fcf9;
+}
+.get-left-sec{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height:550px ;
+  justify-content: center;
+}
+.get-left-sec p{
+  color: #6A6A6A;
+  font-size: 2.4rem;
+  font-weight: 300;
+  padding-right: 2rem;
+}
+
+/* form section css */
+.parent-details{
+  margin:4rem 3rem;
+  background-color: #FCFBF3;
+  padding: 2rem;
+}
+
+.form-head-line{
+  color: #1A65CB;
+  font-weight: 300;
+  border-radius: 40px;
+  /* padding: 2rem 2rem; */
+}
+.custum-form-input{
+  border-radius: 0.7rem;
+}
+.form-heading label{
+  color: #6A6A6A;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0rem;
+}
+.error-design{
+  color: #FF4A64;
+  font-size: 0.8rem !important;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+}
+.border-error{
+  border: 1px solid #FF4A64;
+}
+.submit-type-button{
+  background: #FF4A64 ;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 0.6rem 2rem 0.4rem 2rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Quary starts */
+
 @media(min-width: 1024px) {
   .navbar-expand-lg .nav-item {
     margin-inline: 44px;
