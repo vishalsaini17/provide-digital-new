@@ -8,3 +8,6 @@ Vedio  for mobile view in bootom slider
 manager and director text not available
 i cant access about page text and image
 get in touch colour and css not pickable
+navbar icons cant get the images
+e-card section images are not avalable
+The App section images are not avalable

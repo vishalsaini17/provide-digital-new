@@ -588,6 +588,9 @@ button.nav-link.active.tab-step-3{
 .get-in-touch-parent{
   min-height: 550px;
   background-color: #f3fcf9;
+  /* position: relative; */
+  padding-bottom: 7.3rem;
+
 }
 .get-left-sec{
   display: flex;
@@ -595,6 +598,7 @@ button.nav-link.active.tab-step-3{
   flex-direction: column;
   min-height:550px ;
   justify-content: center;
+  padding-top: 3rem;
 }
 .get-left-sec p{
   color: #6A6A6A;
@@ -606,18 +610,23 @@ button.nav-link.active.tab-step-3{
 /* form section css */
 .parent-details{
   margin:4rem 3rem;
-  background-color: #FCFBF3;
-  padding: 2rem;
+  background-color: #FFFFFF;
+  padding: 2.5rem 3rem;
+  border-radius: 1.2rem;
+  position: relative;
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 
 .form-head-line{
   color: #1A65CB;
   font-weight: 300;
   border-radius: 40px;
-  /* padding: 2rem 2rem; */
+  padding: 2rem 0rem;
 }
 .custum-form-input{
   border-radius: 0.7rem;
+  background-color: #F1F4F3;
 }
 .form-heading label{
   color: #6A6A6A;
@@ -649,18 +658,282 @@ button.nav-link.active.tab-step-3{
   justify-content: center;
 }
 
+.bootom-image{
+  height: 280px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+.bottom-section {
+  margin-top: 4rem;
+}
+
+
+.input-subcribe{
+  width: 306px;
+  height: 71px;
+}
+.bottom-section h2{
+  color: #10386E;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+/* product banner starts */
+
+.banner-product{
+  padding: 3rem 0rem;
+  min-height: 500px;
+  margin-top: 5rem;
+}
+
+.product-image{
+  min-width: 450px;
+  
+}
+.parent-banner-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.parent-banner-content h2 {
+  color: #38C5A3;
+  font-size: 5rem;
+}
+.parent-banner-content p{
+  font-size: 1.2rem;
+    color: #7C7D7D;
+    line-height: 2.2;
+    margin-top: 2px;
+}
+
+
+/* tab section product page  */
+
+.product-heading{
+  font-size: 6rem;
+  color: #38C5A3;
+}
+.tab-mobile-section{
+  position: relative;
+}
+.tab-parent-section{
+  position: absolute;
+  right: 21%;
+  width: 400px;
+}
+.custum-mob-tabdesign {
+  width: 100px;
+  height: 100px;
+  border-radius: 50% !important;
+  background-color: #F9F7E7 !important;
+  color: #A1A1A1 !important;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.border-right-1::after{
+  content: '';
+  border: 1px dashed #A1A1A1;
+  width: 70px;
+  right: -70px;
+  position: absolute;
+}
+
+.custum-mob-tabdesign.active{
+  width: 100px;
+  height: 100px;
+  border-radius: 50% !important;
+  background-color: #1A65CB !important;
+  color: #fff !important;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.border-section-design{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.parent-box{
+  display: flex;
+}
+.content-tab{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-tab-inner h2{
+  margin-top: 4rem;
+  color: #004DB5;
+  font-weight: 300;
+
+}
+
+.content-tab-inner {
+  padding: 0rem 3rem;
+}
+
+
+/* benifits head section starts */
+.benefits-sec{
+  background-color: #F3FFF9;
+  padding: 2rem 0rem;
+}
+.benifit-heading{
+  color: #1A65CB;
+  font-size: 4.5rem;
+  font-weight: 700;
+  min-height: 220px;
+  padding: 2rem 0rem;
+  line-height: 1.2;
+}
+
+.right-benifit-content{
+  font-size: 1.2rem;
+  color: #7C7D7D;
+  min-height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  max-width: 55%;
+  font-weight: 300;
+}
+
+.image-sec {
+  display: flex;
+  flex-direction: column;
+  max-width: 190px;
+}
+.content-card h2{
+  color: #004DB5;
+  font-size: 1.9rem;
+  margin-top: 2rem;
+  padding: 0.5rem 0rem;
+  font-weight: 400;
+}
+.content-card p{
+  font-size: 1.2rem;
+  color: #7C7D7D;
+  font-weight: 300;
+}
+
+/* book a demo section css  */
+
+  .demo-section-form{
+    background-color: #FFFEF5;
+  }
+
+.get-left-sec-2 p {
+  color: #6A6A6A;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-right: 2rem;
+}
+.submit-type-button-2{
+  background: #FF4A64 ;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 0.4rem 1rem 0.2rem 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custum-form-input-2{
+  border-radius: 0.7rem;
+  background-color: #F3F3EB;
+  border-color: #EBEBEB !important;
+}
+.get-left-sec-2 h2{
+  line-height: 1.2; 
+  margin-top: 2rem;
+}
+.parent-details-2 {
+  margin: 4rem 3rem;
+  background-color: #FFFFFF;
+  padding: 2.5rem 3rem;
+  border-radius: 1.2rem;
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 28px 79px #31080817;
+}
+.form-heading-2 label{
+  color: #6A6A6A;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 0rem;
+}
+.subtitle-about-2 {
+  color: #A1A1A1;
+  font-size: 1.9rem;
+  line-height: 40px;
+  font-weight: 300;
+}
+.whythisapp {
+  min-height: 680px;
+  display: flex;
+  align-items: center;
+  background-color: #EEF9F0;
+}
+.learnmore-btn {
+  background: #FF4A64;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem 0.7rem 1.5rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+}
+
+/* accordian css */
+
+.accordian-left h3{
+  color: #1A65CB;
+}
 
 
 
+.accordion-design{
+  color: #6A6A6A !important;
+  border-top: 1px solid #6a6a6a40;
+}
+
+.custum-design-btn-accordian{
+  color: #6A6A6A !important;
+}
+.accordion-button::after {
+  background-image: url('') !important;
+  /* content: '\f068' !important; */
+  content: '\002B' ;
+}
+.accordion-button:not(.collapsed)::after{
+  content: '\2013';
+}
+
+.extra-section{
+  display: none;
+}
 
 
 
+ /* Media Quary starts */
 
-
-
-
-/* Media Quary starts */
-
+ /* MIN-MEDIA QUARY */
 @media(min-width: 1024px) {
   .navbar-expand-lg .nav-item {
     margin-inline: 44px;
@@ -695,10 +968,10 @@ button.nav-link.active.tab-step-3{
  
 }
 
-.slide-content p {
+/* .slide-content p {
   font-size: 20px;
   margin-top: 15px;
-}
+} */
 .footer-menu a {
   font-size: 24px;
   line-height: 34px;
@@ -740,6 +1013,25 @@ button.nav-link.active.tab-step-3{
   .vision-mission-value .img {
     margin-bottom: 20px;
   }
+
+}
+
+/* MAX-MEDIA QUARY */
+
+@media(max-width: 1024px) {
+
+  .tab-parent-section {
+    right: 5%;
+}
+.benifit-heading {
+  font-size: 4rem;
+}
+.submit-type-button-2 {
+  font-size: 0.9rem;
+}
+.parent-details-2 {
+  margin: 2rem 0rem;
+}
 
 }
 @media(max-width: 992px) {
@@ -790,6 +1082,11 @@ button.nav-link.active.tab-step-3{
 .mini-title {
   font-size: 2rem;
 }
+.benifit-heading {
+
+  font-size: 3rem;
+  
+}
 
 }
 
@@ -808,6 +1105,11 @@ button.nav-link.active.tab-step-3{
 
   padding-right: 2%;
 }
+.tab-parent-section {
+  position: static;
+  width: 100%;
+}
+
 }
 
 /* For Mobile  */
@@ -927,6 +1229,7 @@ button.nav-link.active.tab-step-3{
 }
 .mobile-right-view{
   justify-content: flex-end !important;
+  background-color:#E0F6E4 !important;
 }
 .logo-image{
   display: none;
@@ -951,5 +1254,87 @@ button.nav-link.active.tab-step-3{
   /* height: calc(100vh - 350px); */
   height: 500px;
 }
+/* navbar css starts */
+
+.mobile-view-design{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+}
+.nav-mob-design{
+  width: 100%;
+  background-color: #E0F6E4;
+  min-height: 100vh;
+  z-index: 9;
+
+}
+.nav-mob-design ul{
+  background-color:#E0F6E4;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  padding-left: 8%;
+  padding-top: 10%;
+  text-transform: lowercase;
+}
+.nav-mob-design ul li{
+  font-size: 3.5rem;
+  font-weight: 400;
+  padding: 0.2rem 1rem;
+}
+ul.dropdown-menu.show li {
+  font-size: 2rem;
+}
+.extra-section{
+  display: block !important;
+  color: #3AC6A4 !important;
+  padding: 0.5rem 1rem;
+  padding-left: 8%;
+
+}
+.extra-section p{
+  color: #515151;
+}
+.header-icon a {
+  font-size: 24px;
+  line-height: 34px;
+  color: #515151;
+  padding: 2rem 0.7rem;
+}
+li.nav-item.mob-design-none {
+  display: none;
+}
+.product-image {
+  min-width: 100%;
+}
+.parent-banner-content h2 {
+  font-size: 4rem;
+}
+.product-heading {
+  font-size: 4rem;
+}
+.benifit-heading {
+  font-size: 3.5rem;
+}
+.custum-mob-tabdesign {
+  width: 81px;
+  height: 80px;
+  font-size: 2.5rem;
+}
+.custum-mob-tabdesign.active {
+  width: 81px;
+  height: 80px;
+  font-size: 2.5rem;
+}
+.parent-details-2 {
+  margin: 2rem 0rem;
+
+  padding: 2.5rem 3rem;
+
+}
+.navbar-light .navbar-toggler-icon{
+
+}
+
 
 }
