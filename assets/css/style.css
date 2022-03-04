@@ -1101,7 +1101,7 @@ button.nav-link.active.tab-step-3{
 .mian-blog-banner-img{
   width: 100%;
 }
-.blog-text-control p,span,div{
+.blog-text-control > p,span,div{
   color: #6A6A6A ;
   padding: 1.1rem 0rem 1.1rem 0rem;
   font-size: 1.3rem;
@@ -1132,6 +1132,56 @@ button.nav-link.active.tab-step-3{
 .bootom-turn{
   transform: rotate(90deg)
 }
+
+/* blog side nav card  */
+
+.blog-serch-cards {
+  padding: 2rem 2.5rem;
+}
+.input-design-blog{
+  background-color: #f3f9ff;
+  padding: 18px;
+}
+.blog-serch-btn {
+  width: 60px;
+  padding: 0;
+  background-color:#1A65CB !important;
+}
+.blog-serch-icon{
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.blog-prfile-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 1.2rem;
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.user-right-blog{
+  width: 80px;
+  height: 80px;
+
+}
+
+.blog-prfile-card h2{ 
+  color:#1A65CB ;
+}
+.blog-prfile-card p{ 
+  color: #6A6A6A;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
 
 
 
