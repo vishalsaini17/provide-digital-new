@@ -18,43 +18,62 @@
 
 <body>
 
+
   <div class="main-navbar">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light pt-sm-0">
       <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid  mob-show" />
       <div class="container-fluid mobile-right-view">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-center nav-mob-design" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
             <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
-            <li class="nav-item">
-              <a class="navbar-brand me-0" href="/" aria-label="Provide Digital Logo">
+            <li class="nav-item mob-design-none">
+              <a class="navbar-brand me-0 " href="./product.html" aria-label="Provide Digital Logo">
                 <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid  logo-image" />
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle new-drop-custum" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
+              <a class="nav-link dropdown-toggle new-drop-custum" href="#" id="navbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item nav-link" href="./product.html">eC- Card App</a></li>
                 <li><a class="dropdown-item nav-link" href="#">Provide My Experience</a></li>
                 <li><a class="dropdown-item nav-link" href="#">Covid Products</a></li>
+                <li><a class="dropdown-item nav-link" href="./contact.html">Contact Us</a></li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link " href="./contact.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link " href="./blog.html">Blog</a></li>
           </ul>
+          <div class="extra-section ">
+            <h3>Contact</h3>
+            <p>hello@providedigital.com</p>
+            <h3 class="mt-3 pt-3">Colchester UK</h3>
+            <p>900 The Crescent Colchester<br> Business Park</p>
+            <div class="header-icon">
+              <a href="/facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="/twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="/linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+               
+          </div>
+          
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mobile-view-design" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
     </nav>
   </div> <!-- / main-navbar -->
 
+
+
   <div class="hero-section py-5" id="hero">
     <div class="container text-center py-5">
       <div class="hero-title py-5">
         We are
-        <span class="d-inline-block">
-          <lottie-player src="./assets/json/heartbeat.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <span class="d-inline-block position-relative "style="width: 300px; height: 300px;">
+          <lottie-player class="heart-beat-line" src="./assets/json/heartbeat.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
         </span>
         Creative
       </div>
@@ -132,10 +151,10 @@
               </span>
             </div>
             <div class="d-flex align-center justify-content-center flex-md-column w-75 m-auto mobile-revese-design">
-              <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-1.png" alt="eC-Card" />
-              <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" style="width: 360; height: 260px;" loop autoplay></lottie-player>
+              <!-- <img class="img-fluid w-50  mobile-img m-auto mob-absolute d-none" src="./assets/img/development-flow-1.png" alt="eC-Card" /> -->
+              <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="img-fluid w-50  mobile-img m-auto mob-absolute" loop autoplay></lottie-player>
 
-              <div class="card-content-head">
+              <div class="card-content-head mt-5">
                 <h3 class="mini-title">eC-Card</h3>
                 <p class="card-content">The accessible, secure and confidential condom card app offering free sexual
                   health resources to young people.</p>
@@ -227,8 +246,9 @@
               </span>
             </div>
             <div class="d-flex align-center justify-content-center flex-md-column w-75 m-auto mobile-revese-design">
-              <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-2.png" alt="eC-Card" />
-              <div class="card-content-head">
+              <!-- <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-2.png" alt="eC-Card" /> -->
+              <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="img-fluid w-50  mobile-img m-auto mob-absolute" loop autoplay></lottie-player>
+              <div class="card-content-head mt-5">
                 <h3 class="mini-title">Responses to the Covid-19 pandemic</h3>
                 <p class="card-content">The accessible, secure and confidential condom card app offering free sexual
                   health resources to young people.</p>
@@ -239,16 +259,16 @@
         <div class="col-md-7">
           <div class="row e-product-bg vh-70">
             <div class="col-md-12">
-              <div class="row e-product-bg">
+              <div class="row ">
                 <div class="col-md-12">
-                  <div class="e-card-bg">
+                  <div>
                     <!-- Create your own class for the containing div -->
                     <div class="slick-carousel w-100">
                       <!-- Inside the containing div, add one div for each slide -->
                       <div class="slide-slick">
                         <!-- You can put an image or text inside each slide div -->
                         <div class="d-flex align-center e-product-bg justify-content-center flex-md-column  m-auto">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-1-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Collect Local Data</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -259,7 +279,7 @@
                       </div>
                       <div class="slide-slick">
                         <div class="d-flex align-center e-product-bg  justify-content-center flex-md-column  m-auto">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-2-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Highly Customisable</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -270,7 +290,7 @@
                       </div>
                       <div class="slide-slick">
                         <div class="d-flex align-center e-product-bg  justify-content-center flex-md-column  m-auto">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-1-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Private User Registration</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -281,7 +301,7 @@
                       </div>
                       <div class="slide-slick">
                         <div class="d-flex align-center e-product-bg justify-content-center flex-md-column  m-auto">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-2-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head">
                             <h3 class="subtitle-mini-slider">New Data Private</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -324,8 +344,9 @@
               </span>
             </div>
             <div class="d-flex align-center justify-content-center flex-md-column w-75 m-auto mobile-revese-design">
-              <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-3.png" alt="eC-Card" />
-              <div class="card-content-head">
+              <!-- <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-3.png" alt="eC-Card" /> -->
+              <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="img-fluid w-50  mobile-img m-auto mob-absolute" loop autoplay></lottie-player>
+              <div class="card-content-head mt-5">
                 <h3 class="mini-title">Provide My Experience</h3>
                 <p class="card-content">The accessible, secure and confidential condom card app offering free sexual
                   health resources to young people.</p>
@@ -345,7 +366,7 @@
                       <div class="slide-slick">
                         <!-- You can put an image or text inside each slide div -->
                         <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-1-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Collect Local Data</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -356,7 +377,7 @@
                       </div>
                       <div class="slide-slick">
                         <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-2-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Highly Customisable</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -367,7 +388,7 @@
                       </div>
                       <div class="slide-slick">
                         <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-1-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Private User Registration</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
@@ -378,7 +399,7 @@
                       </div>
                       <div class="slide-slick">
                         <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
-                          <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-2-slide.png" alt="eC-Card" />
+                          <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head">
                             <h3 class="subtitle-mini-slider">New Data Private</h3>
                             <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
