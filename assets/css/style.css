@@ -102,7 +102,10 @@ ul {
   top: 45%;
   right: -10%;
 }
-
+.animation-heart{
+  height: 300px;
+  width: 300px;
+}
 
 
 /* slider */
@@ -357,9 +360,12 @@ ul {
   background-color: #F1F4F3;
 }
 .e-responses-bg{
-  background-color: #FFF8F3;
-  
+  background-color: #FFF8F3; 
 }
+.mob-change-d{
+  cursor: grabbing;
+}
+
 .card-content-head{
   /* max-width: 400px;
   margin: auto; */
@@ -427,7 +433,26 @@ ul {
 .custum-icons-arrow{
   display: inline-block;
   margin-left: 10px;
+  }
+
+.my-sign {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
 }
+  .btn-red:hover i.fa-long-arrow-right.my-sign {
+    opacity: 1;
+    transform-style: preserve-3d;
+    animation: myleftlogo 1s infinite;
+    position: relative;
+    transform: scale(1.1);
+}
+ 
+
+
+
+
 .custum-icons-play{
   display: inline-block;
   font-size: 20px;
@@ -1102,7 +1127,7 @@ button.nav-link.active.tab-step-3{
 .mian-blog-banner-img{
   width: 100%;
 }
-.blog-text-control > p,span,div{
+.blog-text-control p{
   color: #6A6A6A ;
   padding: 1.1rem 0rem 1.1rem 0rem;
   font-size: 1.3rem;
@@ -1250,13 +1275,29 @@ button.nav-link.active.tab-step-3{
   padding: 0px 24px;
 }
 
+/* 
+Animation css starts */
 
+
+
+@keyframes myleftlogo {
+  from {
+  left:0
+  }
+  to {
+  left:11px
+  }
+  }
 
 
 
  /* Media Quary starts */
 
+
+
+
  /* MIN-MEDIA QUARY */
+
 @media(min-width: 1024px) {
   .navbar-expand-lg .nav-item {
     margin-inline: 44px;
@@ -1340,6 +1381,21 @@ button.nav-link.active.tab-step-3{
 }
 
 /* MAX-MEDIA QUARY */
+
+/* mini laptop media quary */
+@media(max-width: 1400px) {
+
+
+}
+
+
+@media(max-width: 1200px) {
+
+
+}
+
+
+
 
 @media(max-width: 1024px) {
 
@@ -1605,6 +1661,7 @@ ul.dropdown-menu.show li {
   left: 22%;
 }
 
+
 .card-content-head {
   margin-top: 65px;
 }
@@ -1637,7 +1694,7 @@ ul.dropdown-menu.show li {
 .ui-card-slider {
   width: 100%;
   /* height: calc(100vh - 350px); */
-  height: 500px;
+  height: 640px;
 }
 /* navbar css starts */
 
@@ -1717,6 +1774,40 @@ li.nav-item.mob-design-none {
   padding: 2.5rem 3rem;
 
 }
+.heart-beat-line {
+  position: absolute;
+  top: -116px;
+  left: -62px;
+}
+.animation-heart{
+  height: 50px;
+  width: 250px;
+}
+.vision-mission-value .img {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 95px;
+  padding: 35px;
+}
+.blue-theme-color h4 {
+  font-size: 1.7rem;
+}
+.products-title {
+  padding: 2rem 1rem;
+  background-color: #ede9e99e;
+  text-align: center;
+}
+
+.mob-desifn-remove{
+  padding: 0;
+  margin: 0;
+}
+
+.mob-change-d {
+flex-direction: column;  
+}
+
+
 .navbar-light .navbar-toggler-icon{
 
 }

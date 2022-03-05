@@ -7,12 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+  <link rel="stylesheet" href="./assets/css/animate.css"/>
   <link crossorigin="anonymous" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   <link crossorigin="anonymous" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="./assets/css/testimonial-slider.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/style.css">
+ 
+  
 
 </head>
 
@@ -28,8 +31,10 @@
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
             <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
             <li class="nav-item mob-design-none">
-              <a class="navbar-brand me-0 " href="./product.html" aria-label="Provide Digital Logo">
-                <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid  logo-image" />
+              <a class="navbar-brand me-0 "  href="./product.html" aria-label="Provide Digital Logo">
+                <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital"  class="img-fluid logo-image wow SlideInDown"
+                 data-wow-duration="2s" data-wow-delay="0.2s" />
+                 
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -71,14 +76,20 @@
   <div class="hero-section py-5" id="hero">
     <div class="container text-center py-5">
       <div class="hero-title py-5">
-        We are
-        <span class="d-inline-block position-relative "style="width: 300px; height: 300px;">
+        <span class="  wow backInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+          We are
+        </span>
+      
+        <span class="d-inline-block position-relative  animation-heart">
           <lottie-player class="heart-beat-line" src="./assets/json/heartbeat.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
         </span>
-        Creative
+        <span class=" wow backInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+          Creative
+        </span>
+        
       </div>
       <div class="pb-5">
-        <a href="" class="btn btn-red mt-5">Request a demo <i class="fa fa-long-arrow-right custum-icons-arrow ms-2" aria-hidden="true"></i></a>
+        <a href="" class="btn btn-red mt-5">Request a demo <i class="fa fa-long-arrow-right custum-icons-arrow my-sign ms-2" aria-hidden="true"></i></a>
       </div>
       <h6 class="mt-5">IN PARTNERSHIP WITH</h6>
       <div class="centered pt-5">
@@ -129,7 +140,7 @@
   </section> <!-- vision-mission-value -->
 
   <section class="innovative-product">
-    <div class="container">
+    <div class="container mob-desifn-remove">
       <div class="products-title">
         <h2 class="title-2 pt-4">Our Innovative Products</h2>
         <p class="subtitle">Bespoke apps and technology for the healthcare market</p>
@@ -150,7 +161,7 @@
               <div class="border-dot"> </div>
               </span>
             </div>
-            <div class="d-flex align-center justify-content-center flex-md-column w-75 m-auto mobile-revese-design">
+            <div class="d-flex align-center justify-content-center flex-md-column mob-change-d w-75 m-auto mobile-revese-design">
               <!-- <img class="img-fluid w-50  mobile-img m-auto mob-absolute d-none" src="./assets/img/development-flow-1.png" alt="eC-Card" /> -->
               <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="img-fluid w-50  mobile-img m-auto mob-absolute" loop autoplay></lottie-player>
 
@@ -173,7 +184,7 @@
                   <!-- Inside the containing div, add one div for each slide -->
                   <div class="slide-slick">
                     <!-- You can put an image or text inside each slide div -->
-                    <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-card-bg">
+                    <div class="d-flex align-center justify-content-center flex-md-column mob-change-d  m-auto e-card-bg">
                       <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                       <div class="card-content-head">
                         <h3 class="subtitle-mini-slider">Collect Local Data</h3>
@@ -184,7 +195,7 @@
                     </div>
                   </div>
                   <div class="slide-slick">
-                    <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-card-bg">
+                    <div class="d-flex align-center justify-content-center flex-xs-column flex-md-column  m-auto e-card-bg">
                       <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                       <div class="card-content-head">
                         <h3 class="subtitle-mini-slider">Highly Customisable</h3>
@@ -195,7 +206,7 @@
                     </div>
                   </div>
                   <div class="slide-slick">
-                    <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-card-bg">
+                    <div class="d-flex align-center justify-content-center flex-xs-column flex-md-column  m-auto e-card-bg">
                       <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                       <div class="card-content-head">
                         <h3 class="subtitle-mini-slider">Private User Registration</h3>
@@ -206,7 +217,7 @@
                     </div>
                   </div>
                   <div class="slide-slick">
-                    <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-card-bg">
+                    <div class="d-flex align-center justify-content-center flex-xs-column flex-md-column  m-auto e-card-bg">
                       <img class="img-fluid  m-auto mobile-img" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                       <div class="card-content-head">
                         <h3 class="subtitle-mini-slider">New Data Private</h3>
@@ -245,7 +256,7 @@
               <div class="border-dot"> </div>
               </span>
             </div>
-            <div class="d-flex align-center justify-content-center flex-md-column w-75 m-auto mobile-revese-design">
+            <div class="d-flex align-center justify-content-center flex-md-column mob-change-d w-75 m-auto mobile-revese-design">
               <!-- <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-2.png" alt="eC-Card" /> -->
               <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="img-fluid w-50  mobile-img m-auto mob-absolute" loop autoplay></lottie-player>
               <div class="card-content-head mt-5">
@@ -267,7 +278,7 @@
                       <!-- Inside the containing div, add one div for each slide -->
                       <div class="slide-slick">
                         <!-- You can put an image or text inside each slide div -->
-                        <div class="d-flex align-center e-product-bg justify-content-center flex-md-column  m-auto">
+                        <div class="d-flex align-center e-product-bg justify-content-center flex-md-column mob-change-d  m-auto">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Collect Local Data</h3>
@@ -278,7 +289,7 @@
                         </div>
                       </div>
                       <div class="slide-slick">
-                        <div class="d-flex align-center e-product-bg  justify-content-center flex-md-column  m-auto">
+                        <div class="d-flex align-center e-product-bg  justify-content-center mob-change-d flex-md-column  m-auto">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Highly Customisable</h3>
@@ -289,7 +300,7 @@
                         </div>
                       </div>
                       <div class="slide-slick">
-                        <div class="d-flex align-center e-product-bg  justify-content-center flex-md-column  m-auto">
+                        <div class="d-flex align-center e-product-bg  justify-content-center mob-change-d flex-md-column  m-auto">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Private User Registration</h3>
@@ -300,7 +311,7 @@
                         </div>
                       </div>
                       <div class="slide-slick">
-                        <div class="d-flex align-center e-product-bg justify-content-center flex-md-column  m-auto">
+                        <div class="d-flex align-center e-product-bg justify-content-center mob-change-d flex-md-column  m-auto">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head">
                             <h3 class="subtitle-mini-slider">New Data Private</h3>
@@ -343,7 +354,7 @@
               <div class="border-dot-3"> </div>
               </span>
             </div>
-            <div class="d-flex align-center justify-content-center flex-md-column w-75 m-auto mobile-revese-design">
+            <div class="d-flex align-center justify-content-center flex-md-column mob-change-d w-75 m-auto mobile-revese-design">
               <!-- <img class="img-fluid w-50  mobile-img m-auto mob-absolute" src="./assets/img/development-flow-3.png" alt="eC-Card" /> -->
               <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="img-fluid w-50  mobile-img m-auto mob-absolute" loop autoplay></lottie-player>
               <div class="card-content-head mt-5">
@@ -365,7 +376,7 @@
                       <!-- Inside the containing div, add one div for each slide -->
                       <div class="slide-slick">
                         <!-- You can put an image or text inside each slide div -->
-                        <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
+                        <div class="d-flex align-center justify-content-center flex-md-column mob-change-d flex-sm-column  m-auto e-responses-bg ">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Collect Local Data</h3>
@@ -376,7 +387,7 @@
                         </div>
                       </div>
                       <div class="slide-slick">
-                        <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
+                        <div class="d-flex align-center justify-content-center flex-md-column mob-change-d flex-sm-column  m-auto e-responses-bg ">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Highly Customisable</h3>
@@ -387,7 +398,7 @@
                         </div>
                       </div>
                       <div class="slide-slick">
-                        <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
+                        <div class="d-flex align-center justify-content-center flex-md-column mob-change-d flex-sm-column  m-auto e-responses-bg ">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
                           <div class="card-content-head ">
                             <h3 class="subtitle-mini-slider">Private User Registration</h3>
@@ -398,7 +409,7 @@
                         </div>
                       </div>
                       <div class="slide-slick">
-                        <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
+                        <div class="d-flex align-center justify-content-center flex-md-column mob-change-d  m-auto e-responses-bg ">
                           <img class="img-fluid  m-auto mobile-img mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
                           <div class="card-content-head">
                             <h3 class="subtitle-mini-slider">New Data Private</h3>
@@ -674,7 +685,8 @@
   </footer>
 
   <!-- script -->
-
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
 
@@ -687,6 +699,7 @@
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
   <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/wow.js"></script>
 </body>
 
 </html>
