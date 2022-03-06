@@ -196,10 +196,10 @@ ul {
 }
 
 /* banner heart css */
-.heart-beat-line{
+.heart-beat-line {
   position: absolute;
-  top: 125px;
-  left: -62px;
+  top: -8px;
+  left: -16px;
 }
 
 /* footer */
