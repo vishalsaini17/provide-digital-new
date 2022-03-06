@@ -1578,8 +1578,8 @@ ul.dropdown-menu.show li {
 @media(max-width: 667px){
   
   .custum-btn,.custum-btn-2 {
-    font-size: 0.9rem;
-    padding: 0.4rem 1.2rem 0.5rem 1.2rem;
+    font-size: 1rem;
+    padding: 0.9rem 1.5rem 0.9rem 1.5rem;
 }
 .mob-none{
   display: none;
@@ -1633,9 +1633,11 @@ ul.dropdown-menu.show li {
 }
 .footer-logo {
   width: 100%;
-  max-width: 245px;
+  max-width: 222px;
   margin: auto;
   display: flex;
+  margin-bottom: 24px;
+  padding: 11px;
 }
 .footer-mob-design{
   flex-direction: column-reverse;
@@ -1667,6 +1669,8 @@ ul.dropdown-menu.show li {
   height: 112px;
   justify-content: flex-end;
   align-items: flex-end;
+  padding-bottom: 10px;
+  padding-right: 24px;
 }
 .main_parent {
   display: block;
@@ -1677,9 +1681,9 @@ ul.dropdown-menu.show li {
 
 .mob-absolute{
   position: absolute;
-  top: -27px;
-  padding: 48px;
-  left: 22%;
+  top: 1px;
+  padding: 45px;
+  left: 8%;
 }
 
 
@@ -1807,8 +1811,8 @@ li.nav-item.mob-design-none {
 .vision-mission-value .img {
   background-color: #fff;
   border-radius: 50%;
-  width: 95px;
-  padding: 35px;
+  width: 68px;
+  padding: 16px;
 }
 .blue-theme-color h4 {
   font-size: 1.7rem;
@@ -1818,11 +1822,76 @@ li.nav-item.mob-design-none {
   background-color: #ede9e99e;
   text-align: center;
 }
+.left_head {
+  font-size: 23px;
+  padding-left: 9px;
+}
+
+.mobile-show-border {
+position: relative;
+}
+.border-mobile-show{
+  border: 1px dashed #1A65CB;
+    width: 26px;
+    height: 2px;
+    position: absolute;
+    top: -36px;
+    left: 4px;
+}
+.vedio-control{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+}
+.vh-70 {
+  height: 400px;
+}
+.button-sec {
+  justify-content: center;
+  padding: 2rem;
+}
+.vedio-sec {
+  padding: 10%;
+}
+
+
+
+/* slider mobile css */
+
+.ui-card-slider .right-slide {
+  left: 93%;
+  width: 100%;
+  height: 65%;
+}
+
+.ui-card-slider .left-slide {
+  left: 100%;
+  width: auto;
+  display: block;
+  /* display: none; */
+
+}
+.ui-card-slider .center-slide {
+  width: 80%;
+  height: auto;
+  left: 44%;
+}
+
+.slide-content p {
+  font-size: 19px;
+  margin-top: 20px;
+  padding: 9px;
+}
+
+/* Mobile theme css starts */
 
 .mob-desifn-remove{
   padding: 0;
   margin: 0;
 }
+
+
 
 .mob-change-d {
 flex-direction: column;  
