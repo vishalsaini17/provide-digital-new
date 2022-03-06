@@ -1489,7 +1489,7 @@ Animation css starts */
 
 }
 
-@media(max-width: 768px){
+@media(max-width: 767px){
   .phone-none{
     display: none;
   }
