@@ -38,7 +38,9 @@ ul {
 .nav-link{
   color: #3AC6A4 !important;
 }
-
+.theme-color{
+  color: #1A65CB;
+}
 /* ------------------------------------------------------ */
 
 .main-navbar {
@@ -1274,7 +1276,12 @@ button.nav-link.active.tab-step-3{
   justify-content: space-between;
   padding: 0px 24px;
 }
-
+.mob-none{
+  display: block;
+}
+.dasktop-none{
+  display: none;
+}
 /* 
 Animation css starts */
 /* .{
@@ -1282,7 +1289,16 @@ Animation css starts */
       display: inline-block;
   } */
 
+  .animation-btn-hover {
+    min-width: 216px;
+}
+  .animation-btn2 {
+    margin-left: 5px;
+}
 
+.animation-btn-hover:hover .animation-btn2{
+  margin-left: 18px;
+}
 
 @keyframes myleftlogo {
   from {
@@ -1483,6 +1499,7 @@ Animation css starts */
     font-size: 5rem;
     text-align: center;
     font-weight: 600;
+    flex-direction: column;
 }
 .mini-title{
 
@@ -1590,7 +1607,7 @@ ul.dropdown-menu.show li {
   line-height: 40px;
 }
 #hero a.btn-red {
-  min-width: 53%;
+  min-width: 70%;
   padding-top: 14px;
 }
 .title-2 {
@@ -1809,6 +1826,13 @@ li.nav-item.mob-design-none {
 
 .mob-change-d {
 flex-direction: column;  
+}
+
+.mob-none{
+  display: none !important;
+}
+.dasktop-none{
+  display: block !important;
 }
 
 
