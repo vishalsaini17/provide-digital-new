@@ -73,9 +73,9 @@ ul {
   text-align: center;
   font-weight: 600;
 }
-#hero .hero-title span {
+/* #hero .hero-title span {
   max-width: 200px;
-}
+} */
 #hero a.btn-red {
   background: #ff4a64;
   border-radius: 30px;
@@ -1277,6 +1277,10 @@ button.nav-link.active.tab-step-3{
 
 /* 
 Animation css starts */
+/* .{
+  transform: rotate3d(1, 1, 1, 320deg);
+      display: inline-block;
+  } */
 
 
 
