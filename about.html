@@ -17,6 +17,8 @@
     integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/style.css">
 
+  
+
 </head>
 
 <body>
@@ -307,7 +309,7 @@
       </div>
     </div>
 
-    <div class="scroll-parent">
+    <div class="scroll-parent" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <div class="prfile-parent">
         <div class="container ">
           <div class="row">
@@ -475,9 +477,52 @@
     </div>
   </section>
 
+  <section>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen justify-content-end d-flex">
+    <div class="modal-content w-50 ml-auto">
+      <div class="modal-header border-0">
+        
+        <button type="button" class="btn-close modal-close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body modal-design ">
+        <h2>Paul Twyman</h2>
+        <p>
+          After attending University the first time to study Economics and
+          Computing, Paul spent several years working in the finance sector
+          in the City and left to set up a foreign exchange trading company
+          with a business partner.
+        </p>
+          <p> Due to the financial crisis in 2008 Paul decided to fund himself to
+            go through university to study Psychology full time and let the
+            crisis pass and never looked back. A first class Undergraduate
+            degree and two additional first class Masters Degrees later Paul
+            took the decision to step away from completing his PhD Thesis to
+            become Managing Director of Provide Digital as he firmly believes
+            in providing better healthcare engagement through the use of
+            better technology.
+          </p>
+         <p>
+          Paul has 3 children and lives in rural Suffolk with his fiancée Becky
+          and is a self-confessed sci-fi geek and computer gamer.
+         </p>
+          
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+
 
   <!-- fotter -->
-  <footer class="main-footer pt-5">
+  <footer class="main-footer pt-5 ">
     <nav class="footer-nav py-5" aria-label="Footer Navbar">
       <div class="container">
         <div class="row justify-content-between">
