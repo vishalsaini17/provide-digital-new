@@ -39,8 +39,6 @@ ul {
 .mini-title {
   font-size: 2.9rem;
   color: #1a65cb;
-  padding-right: 9%;
-  padding-bottom: 9%;
 }
 .nav-link {
   color: #3ac6a4 !important;
@@ -293,10 +291,10 @@ ul {
 .main_parent {
   display: flex;
   align-items: center;
-  min-height: 700px;
 }
 .left_head {
   font-size: 40px;
+  white-space: nowrap;
 }
 .border-dot-parent {
   border: 1px solid #1a65cb;
@@ -342,7 +340,7 @@ ul {
   position: absolute;
   display: block;
   border-radius: 10px;
-  height: 700px;
+  height: 800px;
   color: red;
   margin-top: 3px;
 }
@@ -354,7 +352,7 @@ ul {
   position: absolute;
   display: block;
   border-radius: 30px;
-  height: 700px;
+  height: 800px;
   color: red;
   z-index: 1;
   left: 7px;
@@ -370,6 +368,9 @@ ul {
 .innovative-product-section {
   background-color: #fcfbf3;
 }
+.innovative-product-section .lottie-icon {
+  width: 102px;
+}
 .e-card-bg {
   background-color: #fcfbf3;
 }
@@ -379,16 +380,11 @@ ul {
 .e-responses-bg {
   background-color: #fff8f3;
 }
-.mob-change-d {
-  cursor: grabbing;
-}
 
 .card-content-head {
-  /* max-width: 400px;
-  margin: auto; */
+  max-width: 400px;
   display: flex;
   flex-direction: column;
-  padding: 20px 20px;
 }
 .card-content {
   color: #6a6a6a;
@@ -1358,6 +1354,11 @@ Animation css starts */
     width: 90px;
   }
 
+  /* innovative-product-section */
+  .innovative-product-section .lottie-icon {
+    width: 320px;
+  }
+
   /* footer */
   .main-footer {
     font-size: 28px;
@@ -1401,7 +1402,7 @@ Animation css starts */
 
 @media (min-width: 1024px) {
   .title {
-    font-size: 72px;
+    font-size: 70px;
   }
   .subtitle {
     font-size: 30px;
@@ -1453,7 +1454,7 @@ Animation css starts */
 
 @media (min-width: 1200px) {
   .title {
-    font-size: 70px;
+    font-size: 72px;
   }
   .subtitle {
     font-size: 33px;
@@ -1549,9 +1550,6 @@ Animation css starts */
     /* height: calc(100vh - 350px); */
     height: 500px;
   }
-  .mini-title {
-    font-size: 2rem;
-  }
   .benifit-heading {
     font-size: 3rem;
   }
@@ -1566,7 +1564,7 @@ Animation css starts */
     font-size: 5rem;
   }
   .mini-title {
-    padding-right: 2%;
+    font-size: 2rem;
   }
   .tab-parent-section {
     position: static;
@@ -1593,10 +1591,15 @@ Animation css starts */
     padding: 0.2rem 1rem;
   }
 
-  .innovative-title{
-    background-color: #F8F7EF;
+  /* innovative */
+  .innovative-title {
+    background-color: #f8f7ef;
   }
-  
+
+  .title.number-title {
+    font-size: 51px;
+  }
+
   .extra-section {
     display: block !important;
   }
@@ -1647,14 +1650,8 @@ Animation css starts */
   .ui-card-slider {
     margin-top: 20px;
   }
-  .mobile-img {
-    max-width: 50%;
-  }
   .card-content {
     font-size: 1.1rem;
-  }
-  .mini-title {
-    font-size: 2rem;
   }
   #hero a.btn-red {
     min-width: 70%;
@@ -1671,31 +1668,20 @@ Animation css starts */
   .mobile-revese-design {
     flex-direction: column;
   }
-  .main_parent {
-    display: block;
-  }
+
   .main_box {
     color: #1a65cb;
-    display: flex;
     width: auto;
-    height: 112px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     padding-right: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   .main_parent {
     display: block;
     align-items: center;
-    min-height: 435px;
     position: relative;
-  }
-
-  .mob-absolute {
-    position: absolute;
-    top: 1px;
-    padding: 45px;
-    left: 8%;
   }
 
   .card-content-head {
@@ -1818,9 +1804,6 @@ Animation css starts */
   .button-sec {
     justify-content: center;
     padding: 2rem;
-  }
-  .vedio-sec {
-    padding: 10%;
   }
 
   /* slider mobile css */
