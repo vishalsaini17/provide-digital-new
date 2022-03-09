@@ -16,8 +16,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/about.css">
 
-  
 
 </head>
 
@@ -269,7 +269,7 @@
 
   <!-- Our Process Tab design -->
 
-  <section>
+  <section class="d-none d-md-block">
     <div class="partners-section py-5">
       <div class="container">
         <div class="row">
@@ -282,16 +282,16 @@
       </div>
       <div class="container py-5">
         <div class="row flex-xxl-nowrap flex-xl-wrap justify-content-between">
-          <div class="col-6 col-md-auto">
+          <div class="col-12 col-sm-6 col-md-auto">
             <img src="./assets/img/nhs.png" alt="NHS" class="img-fluid">
           </div>
-          <div class="col-6 col-md-auto">
+          <div class="col-12 col-sm-6 col-md-auto">
             <img src="./assets/img/nhs.png" alt="Eastern AHSN" class="img-fluid">
           </div>
-          <div class="col-6 col-md-auto">
+          <div class="col-12 col-sm-6 col-md-auto">
             <img src="./assets/img/nhs.png" alt="Health & care" class="img-fluid">
           </div>
-          <div class="col-6 col-md-auto">
+          <div class="col-12 col-sm-6 col-md-auto">
             <img src="./assets/img/nhs.png" alt="Provide" class="img-fluid">
           </div>
         </div>
@@ -406,8 +406,8 @@
       <div class="row">
         <div class="col-md-5">
           <div class="get-left-sec">
-            <h2 class="title-2">
-              Get in <br> Touch
+            <h2 class="title-2 d-flex d-md-block">
+              Get in <div> Touch</div> 
             </h2>
             <p>See how Provide Digital could work for you</p>
           </div>
@@ -482,7 +482,7 @@
     <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen justify-content-end d-flex">
-    <div class="modal-content w-50 ml-auto">
+    <div class="modal-content custumWidthDesign ml-auto">
       <div class="modal-header border-0">
         
         <button type="button" class="btn-close modal-close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -522,15 +522,14 @@
 
 
   <!-- fotter -->
-  <footer class="main-footer pt-5 ">
+  <footer class="main-footer pt-5">
     <nav class="footer-nav py-5" aria-label="Footer Navbar">
-      <div class="container">
+      <div class="container px-5 px-md-3">
         <div class="row justify-content-between">
-          <div class="col-12 col-sm col-md-auto">
-            <a href="/"><img src="./assets/img/provide-digital-logo.png" alt="Provide Digital"
-                class="img-fluid footer-logo" /></a>
+          <div class="col-12 col-sm col-md-3">
+            <a href="/"><img src="./assets/img/provide-digital-logo-footer.png" alt="Provide Digital" class="img-fluid footer-logo" /></a>
           </div>
-          <div class="col-12 col-sm col-md-auto">
+          <div class="col-12 col-sm col-md-3">
             <h3 class="footer-title">Company</h3>
             <ul class="list-unstyled footer-menu">
               <li><a href="/about-us">About us</a></li>
@@ -540,7 +539,7 @@
               <li><a href="/term-and-condition">Terms & Conditions</a></li>
             </ul>
           </div>
-          <div class="col-12 col-sm col-md-auto">
+          <div class="col-12 col-sm col-md-3">
             <h3 class="footer-title">Products</h3>
             <ul class="list-unstyled footer-menu">
               <li><a href="/ec-care">eC - Care</a></li>
@@ -548,7 +547,7 @@
               <li><a href="/covid-19">Covid 19</a></li>
             </ul>
           </div>
-          <div class="col-12 col-sm col-md-auto">
+          <div class="col-12 col-sm col-md-2">
             <h3 class="footer-title">Learn</h3>
             <ul class="list-unstyled footer-menu">
               <li><a href="/blog">Blog</a></li>
@@ -559,11 +558,11 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container px-5 px-md-3 pt-md-4">
       <hr class="dropdown-divider">
     </div>
     <div class="footer-contact py-5">
-      <div class="container">
+      <div class="container px-5 px-md-3 py-3 py-md-5">
         <div class="row justify-content-between">
           <div class="col-12 col-md-3">
             <h3 class="footer-title">Contact</h3>
@@ -587,10 +586,8 @@
             <ul class="list-unstyled footer-menu">
               <li>
                 <div class="input-group">
-                  <input type="text" class="form-control border-ft-color" placeholder="Your Email"
-                    aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary bg-transparent custum-footer-btn" type="button"
-                    id="button-addon2">
+                  <input type="text" class="form-control border-ft-color" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-secondary bg-transparent custum-footer-btn" type="button" id="button-addon2">
                     <i class="fa fa-paper-plane custum-send-icon" aria-hidden="true"></i>
                   </button>
                 </div>
@@ -600,16 +597,16 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <div class="container">
+    <div class="footer-bottom text-center text-md-start">
+      <div class="container px-5 px-md-3">
         <div class="row footer-mob-design">
-          <div class="col mob-ft"><a href="/security">Security</a> | <a href="/privacy">Privacy</a> | <a
-              href="/terms">Terms</a></div>
-          <div class="col-auto copyright">© Provide Digital</div>
+          <div class="col-12 col-md order-1 order-md-0"><a href="/security">Security</a> | <a href="/privacy">Privacy</a> | <a href="/terms">Terms</a></div>
+          <div class="col-12 col-md-auto copyright">© Provide Digital</div>
         </div>
       </div>
     </div>
   </footer>
+
 
   <!-- script -->
 
