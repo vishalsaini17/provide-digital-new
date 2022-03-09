@@ -1324,6 +1324,11 @@ Animation css starts */
     min-width: 47px;
     padding-inline: 20px;
   }
+
+  .submit-type-button{
+    margin-top: -85px;
+  }
+  
 }
 
 @media (min-width: 992px) {
