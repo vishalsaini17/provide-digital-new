@@ -20,19 +20,18 @@
 
 <body>
 
-
   <div class="main-navbar">
-    <nav class="navbar navbar-expand-lg navbar-light py-lg-4">
-      <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid  mob-show" />
-      <div class="container-fluid mobile-right-view">
+    <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-4">
+
+      <div class="container">
+        <a href="/" class="d-lg-none me-auto"><img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid" width="109px" /></a>
         <div class="collapse navbar-collapse justify-content-center nav-mob-design" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center py-lg-2">
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
             <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
-            <li class="nav-item mob-design-none">
+            <li class="nav-item d-none d-lg-block">
               <a class="navbar-brand me-0 " href="./product.html" aria-label="Provide Digital Logo">
                 <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid logo-image wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.2s" />
-
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -56,11 +55,10 @@
               <a href="/twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               <a href="/linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
             </div>
-
           </div>
 
         </div>
-        <button class="navbar-toggler mobile-view-design" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
@@ -68,29 +66,28 @@
   </div> <!-- / main-navbar -->
 
 
-
-  <div class="hero-section py-5" id="hero">
-    <div class="container px-5 px-md-3 text-center py-5">
+  <div class="hero-section d-flex flex-wrap py-5" id="hero">
+    <div class="container px-5 px-lg-3 text-center py-5">
       <div class="hero-title py-5 w-100 d-flex justify-content-center align-items-center">
-        <div class=" wow SlideInTop " data-wow-duration="2s" data-wow-delay="0.8s">
-          We are
-        </div>
+        <div class="wow SlideInTop " data-wow-duration="2s" data-wow-delay="0.8s">We are</div>
 
-        <span class="d-inline-block position-relative  animation-heart">
+        <span class="d-none d-lg-inline-block position-relative  animation-heart">
           <lottie-player class="heart-beat-line" src="./assets/json/heartbeat.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
         </span>
-        <div class=" wow  rotateInDownRight" data-wow-duration="2s" data-wow-delay="0.8s">
-          Creative
-        </div>
+        <div class="wow  rotateInDownRight" data-wow-duration="2s" data-wow-delay="0.8s">Creative</div>
 
       </div>
-      <div class="pb-sm-3 pb-md-5">
-        <a href="" class="btn btn-red mt-sm-2 mt-md-5">Request a demo <i class="fa fa-long-arrow-right custum-icons-arrow my-sign ms-2" aria-hidden="true"></i></a>
+      <div class="pb-sm-3 pb-lg-5">
+        <a href="" class="btn btn-red mt-sm-2 mt-lg-5">Request a demo <i class="fa fa-long-arrow-right custum-icons-arrow my-sign ms-2" aria-hidden="true"></i></a>
       </div>
-      <h6 class="mt-5">IN PARTNERSHIP WITH</h6>
-      <div class="centered pt-sm-2 pt-md-5">
-        <img class="img-fluid mob-none" src="./assets/img/banner-group.png" alt=" dastop-view" />
-        <img class="img-fluid d-md-none m-auto" src="./assets/img/company-icon.png" alt="mobile-view" />
+    </div>
+
+    <div class="in-partnership w-100 text-center">
+      <div class="container px-5 px-lg-3">
+        <h6>IN PARTNERSHIP WITH</h6>
+        <div class="centered py-sm-3 py-lg-5 mt-5 mt-md-3">
+          <img class="img-fluid" src="./assets/img/banner-group.png" alt="dastop-view" />
+        </div>
       </div>
 
     </div>
@@ -100,40 +97,40 @@
     <div class="container px-5 px-md-3 py-lg-5">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="d-md-none m-auto theme-color fw-bold pb-5">Bespoke apps and technology for the healthcare market</h2>
+          <h2 class="title d-md-none pb-4">Bespoke apps and technology for the healthcare market</h2>
         </div>
       </div>
       <div class="row ">
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="d-sm-flex">
-            <div class="flex-shrink-0">
-              <img src="./assets/icons/eye.png" alt="Vision" class="img">
+        <div class="col-12 col-md-12 col-lg-4 mb-3 mb-md-1 mt-md-2">
+          <div class="row">
+            <div class="col-12 col-md-auto">
+              <img src="./assets/icons/eye.png" alt="Vision" class="img-icon mb-1">
             </div>
-            <div class="flex-grow-1 pt-3 ms-3 blue-theme-color">
-              <h4>Vision</h4>
-              <p>To be the Global leaders in creating Intelligent Healthcare Solutions.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="d-sm-flex">
-            <div class="flex-shrink-0">
-              <img src="./assets/icons/mission-accomplished.png" alt="Mission" class="img">
-            </div>
-            <div class="flex-grow-1 pt-3 ms-3 blue-theme-color">
-              <h4>Mission</h4>
-              <p>Design & create innovative digital solutions for better health experiences.</p>
+            <div class="col-12 col-md pt-3">
+              <h4 class="text-primary">Vision</h4>
+              <p class="text-md-primary">To be the Global leaders in creating Intelligent Healthcare Solutions.</p>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="d-sm-flex">
-            <div class="flex-shrink-0">
-              <img src="./assets/icons/mission-accomplished.png" alt="Values" class="img">
+        <div class="col-12 col-md-12 col-lg-4 mb-3 mb-md-1 mt-md-2">
+          <div class="row">
+            <div class="col-12 col-md-auto">
+              <img src="./assets/icons/mission-accomplished.png" alt="Mission" class="img-icon mb-1">
             </div>
-            <div class="flex-grow-1 pt-3 ms-3 blue-theme-color">
-              <h4>Values</h4>
-              <p>To be innovative yet operate with utmost care and integrity.</p>
+            <div class="col-12 col-md pt-3">
+              <h4 class="text-primary">Mission</h4>
+              <p class="text-md-primary">Design & create innovative digital solutions for better health experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 mb-3 mb-md-1 mt-md-2">
+          <div class="row">
+            <div class="col-12 col-md-auto">
+              <img src="./assets/icons/mission-accomplished.png" alt="Values" class="img-icon mb-1">
+            </div>
+            <div class="col-12 col-md pt-3">
+              <h4 class="text-primary">Values</h4>
+              <p class="text-md-primary">To be innovative yet operate with utmost care and integrity.</p>
             </div>
           </div>
         </div>
@@ -141,20 +138,20 @@
     </div>
   </section> <!-- vision-mission-value -->
 
-  <section class="innovative-product-section pt-4 pt-md-5">
-    <div class="bg-light-pink text-center text-md-start py-3 py-md-5 mb-md-5">
-      <div class="container px-5 px-md-3">
-        <h2 class="title-2">Our Innovative Products</h2>
+  <section class="innovative-product-section pt-md-5">
+    <div class="innovative-title text-center text-md-start py-4 py-md-5 mb-md-5">
+      <div class="container px-5 px-md-3 my-2">
+        <h2 class="title">Our Innovative Products</h2>
         <p class="subtitle">Bespoke apps and technology for the healthcare market</p>
       </div>
     </div>
 
-    <div class="container-fluid ">
-      <div class="row g-sm-0 e-card-bg">
+    <div class="container-fluid px-5 e-card-bg">
+      <div class="row">
         <div class="col-md-12 col-lg-5">
           <div class="main_parent e-card-bg">
             <div class="main_box position-relative">
-              <p class="title-2 fw-light">1</p>
+              <p class="title fw-light">1</p>
               <p class="left_head fw-light">
                 I 3
               </p>
@@ -252,12 +249,13 @@
           </div>
         </div>
       </div>
-
-      <div class="row g-sm-0 e-product-bg">
+    </div>
+    <div class="container-fluid px-5 e-product-bg">
+      <div class="row">
         <div class="col-md-5">
           <div class="main_parent e-product-bg">
             <div class="main_box position-relative">
-              <p class="title-2 fw-light">2</p>
+              <p class="title fw-light">2</p>
               <p class="left_head fw-light">
                 I 3
               </p>
@@ -359,13 +357,13 @@
           </div>
         </div>
       </div>
-
-
-      <div class="row g-sm-0 e-responses-bg">
+    </div>
+    <div class="container-fluid px-5 e-responses-bg">
+      <div class="row">
         <div class="col-md-5">
           <div class="main_parent e-responses-bg">
             <div class="main_box position-relative">
-              <p class="title-2 fw-light">3</p>
+              <p class="title fw-light">3</p>
               <p class="left_head fw-light">
                 I 3
               </p>
@@ -602,7 +600,7 @@
     <div class="container px-5 px-md-3">
       <div class="row">
         <div class="col-12 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mb-3">
-          <h2 class="title-2 mb-5">Backed by amazing partners</h2>
+          <h2 class="title mb-5">Backed by amazing partners</h2>
           <p class="subtitle-2">Provide Digital is backed by notable investors as well as some of the best payments companies on the planet.</p>
         </div>
       </div>
@@ -669,28 +667,28 @@
     <div class="container px-5 px-md-3 pt-md-4">
       <hr class="dropdown-divider">
     </div>
-    <div class="footer-contact py-5">
-      <div class="container px-5 px-md-3 py-3 py-md-5">
+    <div class="footer-contact text-center text-md-start py-5">
+      <div class="container px-5 px-md-3 py-md-5">
         <div class="row justify-content-between">
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xxl-3 ">
             <h3 class="footer-title">Contact</h3>
-            <ul class="list-unstyled footer-menu">
+            <ul class="list-unstyled footer-menu mb-3">
               <li><a href="mailto:hello@providedigital.com">hello@providedigital.com</a></li>
-              <li>
-                <a href="/facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="/twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="/linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <li class="social-menu">
+                <a href="/facebook" class="social-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="/twitter" class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="/linkedin" class="social-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
               </li>
             </ul>
           </div>
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-6 col-lg-4 col-xxl-3  order-1 order-md-0 mt-5 mt-md-0">
             <h3 class="footer-title">Colchester UK</h3>
             <ul class="list-unstyled footer-menu">
               <li><a href="#">900 The Crescent Colchester Business Park</a></li>
             </ul>
           </div>
-          <div class="col-12 col-md-3">
-            <h3 class="footer-title">Subscribe</h3>
+          <div class="col-12 col-md-6 col-lg-4 col-xxl-3 ">
+            <h3 class="footer-title d-none d-md-block">Subscribe</h3>
             <ul class="list-unstyled footer-menu">
               <li>
                 <div class="input-group">

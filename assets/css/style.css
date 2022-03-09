@@ -2,7 +2,8 @@
 
 :root {
   --bs-body-font-family: "Sofia Pro", sans-serif;
-  --bs-primary-rgb: 243, 252, 249;
+  --bs-primary: #1a65cb;
+  --bs-primary-rgb: 26, 101, 203;
 }
 
 ul {
@@ -20,7 +21,7 @@ ul {
   background-color: #fcfbf3;
 }
 
-.title-2 {
+.title {
   color: #1a65cb;
   font-size: 28px;
   line-height: 1.25;
@@ -61,17 +62,9 @@ ul {
   max-width: 196px;
 }
 
-.vision-mission-value .img {
-  background-color: #fff;
-  border-radius: 50%;
-  width: 138px;
-  padding: 35px;
-}
-
 #hero {
   background: #f3fcf9;
   min-height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -113,6 +106,27 @@ ul {
 .animation-heart {
   height: 300px;
   width: 300px;
+}
+
+/* vision-mission-value */
+
+.vision-mission-value h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.vision-mission-value p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.vision-mission-value .img-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 15.5px;
+  width: 57px;
 }
 
 /* slider */
@@ -255,6 +269,17 @@ ul {
   color: inherit;
   font-weight: 300;
 }
+
+.footer-menu .social-menu {
+  margin-inline: -10px;
+}
+
+.footer-menu .social-icon {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 1;
+  padding-inline: 10px;
+}
 /* Mid propduct css */
 
 .main_box {
@@ -309,13 +334,7 @@ ul {
   position: relative;
   display: block;
 }
-/* .border-bootom{
-  height: 100% !important;
-  border-bottom: 1px dashed #1A65CB;
-  background-color: #FCFBF3;
-  width: 18px;
-  position: absolute;
-} */
+
 .border-dot-parent::after {
   content: "";
   background: #f6f3d6 0% 0% no-repeat padding-box;
@@ -345,6 +364,9 @@ ul {
   background-size: 4px 16px;
   background-repeat: repeat-y;
 }
+
+/* innovative */
+
 .innovative-product-section {
   background-color: #fcfbf3;
 }
@@ -382,10 +404,6 @@ ul {
   font-weight: 300;
   letter-spacing: 0px;
   color: #6a6a6a;
-}
-.slide-slick {
-  /* min-width: 434px; */
-  /* min-height: 600px; */
 }
 
 .vh-70 {
@@ -1316,7 +1334,12 @@ Animation css starts */
 /* Media Quary starts */
 
 @media (min-width: 768px) {
-  .title-2 {
+  .text-md-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  .title {
     font-size: 56px;
   }
   .subtitle,
@@ -1324,6 +1347,18 @@ Animation css starts */
     font-size: 22px;
     font-weight: 400;
   }
+
+  /* vision-mission-value */
+  .vision-mission-value p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .vision-mission-value .img-icon {
+    padding: 22px;
+    width: 90px;
+  }
+
+  /* footer */
   .main-footer {
     font-size: 28px;
     line-height: 70px;
@@ -1339,10 +1374,17 @@ Animation css starts */
   .footer-bottom .copyright {
     font-size: 30px;
   }
+  .footer-menu .social-menu {
+    margin-inline: -20px;
+  }
+  .footer-menu .social-icon {
+    min-width: 47px;
+    padding-inline: 20px;
+  }
 }
 
 @media (min-width: 992px) {
-  .title-2 {
+  .title {
     font-size: 66px;
   }
   .subtitle,
@@ -1355,13 +1397,10 @@ Animation css starts */
   .slick-list {
     padding: 0 !important;
   }
-  .vision-mission-value .img {
-    margin-bottom: 20px;
-  }
 }
 
 @media (min-width: 1024px) {
-  .title-2 {
+  .title {
     font-size: 72px;
   }
   .subtitle {
@@ -1374,14 +1413,7 @@ Animation css starts */
     padding: 0 !important;
   }
   #hero .hero-title {
-    color: #1a65cb;
     font-size: 5rem;
-    text-align: center;
-    font-weight: 600;
-  }
-  .vision-mission-value .img {
-    width: 120px;
-    padding: 28px;
   }
   .card-content {
     font-size: 1.4rem;
@@ -1403,11 +1435,6 @@ Animation css starts */
     min-width: 100%;
     margin-inline: auto;
   }
-  .footer-menu i {
-    padding: 0px 10px;
-    font-size: 2.2rem;
-    color: #878787;
-  }
   .custum-send-icon {
     color: #1a65cb !important;
     font-size: 1rem !important;
@@ -1425,7 +1452,7 @@ Animation css starts */
 }
 
 @media (min-width: 1200px) {
-  .title-2 {
+  .title {
     font-size: 70px;
   }
   .subtitle {
@@ -1434,10 +1461,15 @@ Animation css starts */
   .subtitle-2 {
     font-size: 29px;
   }
+
+  .vision-mission-value .img-icon {
+    padding: 38px;
+    width: 138px;
+  }
 }
 
 @media (min-width: 1400px) {
-  .title-2 {
+  .title {
     font-size: 76px;
   }
   .subtitle {
@@ -1460,7 +1492,7 @@ Animation css starts */
     max-width: 1580px;
   }
 
-  .title-2 {
+  .title {
     font-size: 84px;
   }
 }
@@ -1488,9 +1520,9 @@ Animation css starts */
     margin: 2rem 0rem;
   }
 }
-@media (max-width: 992px) {
-  .vision-mission-value .img {
-    margin-bottom: 20px;
+@media (max-width: 991px) {
+  #hero .hero-title {
+    flex-direction: column;
   }
   .slick-list {
     padding: 0 !important;
@@ -1531,11 +1563,7 @@ Animation css starts */
   }
 
   #hero .hero-title {
-    color: #1a65cb;
     font-size: 5rem;
-    text-align: center;
-    font-weight: 600;
-    flex-direction: column;
   }
   .mini-title {
     padding-right: 2%;
@@ -1545,12 +1573,6 @@ Animation css starts */
     width: 100%;
   }
 
-  .mobile-view-design {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 99;
-  }
   .nav-mob-design {
     width: 100%;
     background-color: #e0f6e4;
@@ -1570,9 +1592,11 @@ Animation css starts */
     font-weight: 400;
     padding: 0.2rem 1rem;
   }
-  ul.dropdown-menu.show li {
-    font-size: 2rem;
+
+  .innovative-title{
+    background-color: #F8F7EF;
   }
+  
   .extra-section {
     display: block !important;
   }
@@ -1610,7 +1634,7 @@ Animation css starts */
 
 /* For Mobile  */
 
-@media (max-width: 667px) {
+@media (max-width: 767px) {
   .custum-btn,
   .custum-btn-2 {
     font-size: 1rem;
@@ -1680,23 +1704,10 @@ Animation css starts */
   .border-dot-parent-3 {
     display: none;
   }
-  .mobile-right-view {
-    justify-content: flex-end !important;
-    background-color: #e0f6e4 !important;
-    padding: 0;
-  }
   .logo-image {
     display: none;
   }
 
-  .mob-show {
-    display: block;
-    position: absolute;
-    width: 109px;
-    height: 46px;
-    top: 24px;
-    left: 35px;
-  }
   .bg-slider-back {
     min-height: 141px;
     height: 145px;
@@ -1708,18 +1719,6 @@ Animation css starts */
   }
   /* navbar css starts */
 
-  .mobile-view-design {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 99;
-  }
-  .nav-mob-design {
-    width: 100%;
-    background-color: #e0f6e4;
-    min-height: 100vh;
-    z-index: 9;
-  }
   .nav-mob-design ul {
     background-color: #e0f6e4;
     justify-content: flex-start !important;
@@ -1750,9 +1749,6 @@ Animation css starts */
     line-height: 34px;
     color: #515151;
     padding: 2rem 0.7rem;
-  }
-  li.nav-item.mob-design-none {
-    display: none;
   }
   .product-image {
     min-width: 100%;
@@ -1790,12 +1786,7 @@ Animation css starts */
     height: 50px;
     width: 250px;
   }
-  .vision-mission-value .img {
-    background-color: #fff;
-    border-radius: 50%;
-    width: 68px;
-    padding: 16px;
-  }
+
   .blue-theme-color h4 {
     font-size: 1.7rem;
   }
