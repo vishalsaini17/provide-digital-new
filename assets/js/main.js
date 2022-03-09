@@ -1,4 +1,3 @@
-
 $('.slick-carousel').slick({
   infinite: true,
   slidesToShow: 2, // Shows a three slides at a time
@@ -32,6 +31,11 @@ $('.slick-carousel').slick({
     }
   ]
 });
+
+
+$('#testimonial-slider').slick({
+  arrows: false
+})
 
 
 wow = new WOW(
