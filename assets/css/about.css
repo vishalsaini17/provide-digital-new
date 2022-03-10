@@ -6,6 +6,19 @@
 .custumWidthDesign{
 width: 50% !important;
 }
+
+.top-parentarrow-btn{
+  background-color: #1a65cb;
+  position: fixed;
+  left: 2.4%;
+  bottom: 3%;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.icontop-scroll{
+  color: #fff;
+}
 @media (max-width: 667px) {
 .custumWidthDesign{
 width: 100% !important;
