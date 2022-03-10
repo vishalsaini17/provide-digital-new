@@ -1,9 +1,13 @@
-/* @import url("http://fonts.cdnfonts.com/css/sofia-pro"); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
 
 :root {
-  --bs-body-font-family: "Sofia Pro", sans-serif;
+  --bs-body-font-family: 'Open Sans', sans-serif;
   --bs-primary: #1a65cb;
   --bs-primary-rgb: 26, 101, 203;
+}
+
+h1,h2,h3,h4,h5,h6, .title, button {
+  font-family: 'Comfortaa', cursive;
 }
 
 ul {
@@ -75,7 +79,7 @@ ul {
   color: #1a65cb;
   font-size: 7rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* #hero .hero-title span {
