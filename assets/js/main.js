@@ -50,3 +50,6 @@ wow = new WOW(
 
 wow.init();
 
+new fullpage('#fullpage', {
+
+});

@@ -5,6 +5,9 @@
   --bs-primary: #1a65cb;
   --bs-primary-rgb: 26, 101, 203;
 }
+body {
+  scroll-behavior:  smooth ;
+}
 
 h1,h2,h3,h4,h5,h6, .title, button {
   font-family: 'Comfortaa', cursive;
@@ -42,7 +45,8 @@ ul {
 }
 
 .mini-title {
-  font-size: 2.9rem;
+  /* font-size: 2.9rem; */
+  font-size: 2.5rem;
   color: #1a65cb;
 }
 
@@ -1405,6 +1409,19 @@ Animation css starts */
 
 .animation-btn-hover:hover .animation-btn2 {
   margin-left: 18px;
+}
+.fp-section.fp-table, .fp-slide.fp-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: auto !important;
+}
+
+.fp-tableCell {
+  display: block !important;
+  vertical-align: middle;
+  width: 100%;
+  height: auto !important;
 }
 
 @keyframes myleftlogo {
