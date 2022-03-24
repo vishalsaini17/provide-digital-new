@@ -153,36 +153,36 @@
     <section class="section">
       <div class="container-fluid px-5 pt-5 e-card-bg ">
         <div class="row">
-          <div class="col-md-5 pt-4 pt-md-5">
-            <div class="main_parent e-card-bg">
-              <div class="main_box">
-                <p class="title number-title fw-light">1</p>
-                <p class="left_head fw-light">
-                  I 3
-                </p>
-                <div class="box-product"> PRODUCT</div>
-                <div class="mobile-show-border d-md-none ">
-                  <div class="border-mobile-show"> </div>
+          <div class="col-md-5 pt-4 pt-md-5 "  >
+              <div class="main_parent e-card-bg ">
+                <div class="main_box">
+                  <p class="title number-title fw-light">1</p>
+                  <p class="left_head fw-light">
+                    I 3
+                  </p>
+                  <div class="box-product"> PRODUCT</div>
+                  <div class="mobile-show-border d-md-none ">
+                    <div class="border-mobile-show"> </div>
+                  </div>
+                </div>
+                <div class="border-dot-parent">
+                  <div class="border-dot"> </div>
+                  </span>
+                </div>
+                <div class="col px-md-5">
+                  <!-- <img class="img-fluid w-50   m-auto d-none" src="./assets/img/development-flow-1.png" alt="eC-Card" /> -->
+                  <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="lottie-icon ms-2" loop autoplay></lottie-player>
+  
+                  <div class="card-content-head mt-5">
+                    <h3 class="mini-title">eC-Card</h3>
+                    <p class="card-content">The accessible, secure and confidential condom card app offering free sexual health resources to young people.</p>
+                  </div>
                 </div>
               </div>
-              <div class="border-dot-parent">
-                <div class="border-dot"> </div>
-                </span>
-              </div>
-              <div class="col px-md-5">
-                <!-- <img class="img-fluid w-50   m-auto d-none" src="./assets/img/development-flow-1.png" alt="eC-Card" /> -->
-                <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="lottie-icon ms-2" loop autoplay></lottie-player>
-
-                <div class="card-content-head mt-5">
-                  <h3 class="mini-title">eC-Card</h3>
-                  <p class="card-content">The accessible, secure and confidential condom card app offering free sexual health resources to young people.</p>
-                </div>
-              </div>
-            </div>
           </div>
 
-          <div class="col-md-12 col-lg-7">
-            <div class="row e-card-bg">
+          <div class="col-md-12 col-lg-7 " >
+            <div class="row e-card-bg ">
               <div class="col-md-12">
                 <div class="e-card-bg">
                   <!-- Create your own class for the containing div -->
@@ -473,7 +473,6 @@
         </div>
       </div>
     </section>
-      
  
     <!-- innovative-product-section -->
   
@@ -709,6 +708,17 @@
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="https://unpkg.com/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
   <script src="./assets/js/main.js"></script>
+  <script>
+    $('body').scroll(function () {
+      let isScroll = this.scrollTop > 100
+      if(isScroll && !$('.main-navbar').hasClass('mobile-nav')){
+        $('.main-navbar').addClass('mobile-nav')
+      }
+      if(!isScroll && $('.main-navbar').hasClass('mobile-nav')){
+        $('.main-navbar').removeClass('mobile-nav')
+      }
+    })
+  </script>
 
 </body>
 
