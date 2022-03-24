@@ -709,12 +709,14 @@
   <script src="https://unpkg.com/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
   <script src="./assets/js/main.js"></script>
   <script>
-    $('.body').scroll(function () {
+    $('body').scroll(function () {
       let isScroll = this.scrollTop > 100
       if(isScroll && !$('.main-navbar').hasClass('mobile-nav')){
-        $('.main-navbar').addClass('mobile-nav')
+        $('.main-navbar').addClass('mine-scroll-design')
+        $('.main-navbar').removeClass('navbar-expand-lg')
       }
       if(!isScroll && $('.main-navbar').hasClass('mobile-nav')){
+        $('.main-navbar').addClass('mobile-nav')
         $('.main-navbar').removeClass('mobile-nav')
       }
     })
