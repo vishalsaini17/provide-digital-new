@@ -328,6 +328,20 @@
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
   <script src="./assets/js/main.js"></script>
+  <script>
+    $('.custom-body').scroll(function () {
+      let isScroll = this.scrollTop > 100
+      let parentClass = '.main-navbar .navbar'
+      if(isScroll && $(parentClass).hasClass('navbar-expand-lg')){
+        $(parentClass).addClass('mine-scroll-design')
+        $(parentClass).removeClass('navbar-expand-lg')
+      }
+      if(!isScroll && $(parentClass).hasClass('mine-scroll-design')){
+        $(parentClass).removeClass('mine-scroll-design')
+        $(parentClass).addClass('navbar-expand-lg')
+      }
+    })
+  </script>
 </body>
 
 </html>

@@ -102,17 +102,19 @@ ul {
   background-color: #e0f6e4;
 }
 .mine-scroll-design{
-  /* background-color: #e0f6e4; */
-  position: absolute;
+  background-color: #e0f6e4 !important;
+    position: absolute;
     background-color: transparent;
     width: 100%;
     padding: 0 !important;
     margin: 0 !important;
+    border: 0 !important;
 }
 .mine-scroll-design button.navbar-toggler {
   position: absolute;
   top: 20px;
-  left: 17px;
+  right: 25px;
+  z-index: 9;
 }
 
 
@@ -1021,6 +1023,28 @@ button.nav-link.active.tab-step-3 {
   font-weight: 400;
   
 }
+.animation{
+  transition: .9s all ease-in-out;
+  transition-delay: .9s;
+  transition-duration: 2s;
+  }
+.custumWidthDesign{
+width: 50% !important;
+}
+
+.top-parentarrow-btn{
+  background-color: #1a65cb;
+  position: fixed;
+  left: 2.4%;
+  bottom: 3%;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.icontop-scroll{
+  color: #fff;
+}
+
 
 .whythisapp {
   min-height: 680px;
@@ -2153,12 +2177,98 @@ display: block;
 .user-details {
   font-size: 1rem;
 }
+.navbar-collapse.justify-content-center.nav-mob-design.collapse.show {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  border: 0px solid;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #e0f6e4;
+  flex-direction: column;
+}
+.new-drop-custum::after {
+  position: absolute;
+  top: 49%;
+  right: -7%;
+  font-size: 2rem;
+}
+.mob-change-color{
+  color: #3ac6a4;
+  font-size: 3.8rem;
+  padding-right: 8%;
+}
+.subtitle-about {
+  color: #a1a1a1;
+  font-size: 2.4em;
+  line-height: 40px;
+  font-weight: 300;
+}
   /* Mobile theme css starts */
 
   .mob-change-d {
     flex-direction: column;
   }
 }
+
+@media (max-width: 667px) {
+  .custumWidthDesign{
+  width: 100% !important;
+  }
+  .modal-design {
+    padding: 2rem 1rem;
+  }
+  .modal-design p {
+    font-size: 1.1rem;
+  }
+  .get-left-sec p {
+    font-size: 1.2rem;
+  }
+  .parent-details {
+    margin: 1rem 0rem;
+  }
+  .border-line{
+  display: none;
+  }
+  
+  .get-left-sec {
+    min-height: 299px;
+  }
+  .title-2 {
+    font-size: 35px;
+  }
+  .tab-step-1, .tab-step-2, .tab-step-3 {
+    height: 100px;
+    margin: 10px 0px;
+}
+.button-color {
+  font-size: 1.8rem;
+}
+.tabmenu-section {
+  padding: 2rem 1.2rem;
+}
+.inner-textsub {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.round-image {
+  width: 115px;
+  height: 115px;
+  margin-bottom: 12px;
+}
+.heading-map h3 {
+  font-size: 1.8rem;
+}
+.left-profile-director {
+  padding: 1.2rem 0rem;
+  margin-top: 0rem;
+}
+.get-left-sec {
+  min-height: 120px;
+  padding-top: 0rem;
+}
+  
+  }
 
 @media (max-width: 420px) {
 
@@ -2174,6 +2284,13 @@ display: block;
   font-weight: 700;
   display: inline-block;
   margin-top: 0.7rem;
+}
+.banner-section {
+  height: 680px;
+  display: flex;
+  align-items: center;
+  margin-top: 0rem !important;
+  background-color: #f3fcf9;
 }
 
 }
