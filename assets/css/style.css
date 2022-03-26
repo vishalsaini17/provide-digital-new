@@ -1471,6 +1471,120 @@ width: 50% !important;
   opacity: 1;
 }
 
+/* Provide Experience css starts */
+
+.new-color-product{
+  color: #3ac6a4 !important;
+}
+.subtitle-product{
+  color: #717171;
+  font-size: 2rem;
+}
+.banner-section-product-bg{
+  background-color: #F3FCF9;
+}
+
+.readmore-product-btn {
+  background: #ff4a64 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.5rem;
+  padding: 0.9rem 1rem 0.5rem 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
+
+
+.product-title-mid{
+  color: #1A65CB;
+}
+.content-feature-sub{
+  color: #717171;
+  font-size: 2rem;
+}
+
+.row-content{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.row-image{
+  width: 94%;
+  box-shadow: 0px 3px 64px #00000017;
+  max-height: 331px;
+  max-width: 100%;
+}
+.servey-content-parent h2{
+  color: #1A65CB;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 0.5rem 0rem;
+}
+.servey-content-parent p{
+  color: #717171;
+  font-size: 22px;
+  padding-top: 2.5rem;
+  line-height: 2;
+}
+.benefits-sec-produt{
+  background-color: #EEF9F0;
+  padding: 3rem 0rem;
+}
+.benifit-heading-product {
+  color: #1a65cb;
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding: 3rem 0rem;
+  line-height: 1.2;
+}
+
+.submit-type-button-product {
+  background: #ff4a64;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.3rem;
+  padding: 0.9rem 2rem 0.7rem 2rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-parent-product-slider {
+  /* width: 100% !important; */
+  overflow-x: visible;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: 100%;
+  cursor: pointer;
+}
+.left-content-product h2{
+  color: #1a65cb;
+  font-size: 4.5rem;
+}
+.left-content-product h4{
+  color: #717171;
+  font-size: 24px;
+  padding-top: 2.5rem;
+  line-height: 2;
+}
+
+.light-bg-product{
+  background-color: #F3FFF9;
+}
+.product-large-image{
+  max-height: 442px;
+  max-width: 100%;
+}
+.custum-padding{
+  padding: 7rem 0rem;
+}
+.bottom-image-gets{
+  margin-top: -3rem;
+}
 /* 
 Animation css starts */
 /* .{
