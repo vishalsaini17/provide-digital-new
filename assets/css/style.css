@@ -1585,6 +1585,28 @@ width: 50% !important;
 .bottom-image-gets{
   margin-top: -3rem;
 }
+
+
+
+/* covid page css starts */
+
+.parent-line-covid{
+  border: 1px solid #1A65CB;
+  color: #1A65CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 4rem;
+  border-radius: 50%;
+  height: 148px;
+  width: 148px;
+}
+
+.mid-covid-bed h2{
+  color: #1A65CB;
+  font-size: 72px;
+}
 /* 
 Animation css starts */
 /* .{
