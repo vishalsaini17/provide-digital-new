@@ -1725,7 +1725,56 @@ width: 50% !important;
   width: 65px;
   height: 65px;
 }
+.form-parent-covid {
+  padding-top: 15%;
+  padding-right: 10%;
+}
+.form-parent-covid label{
+  color: #7E7E7E;
+  font-size: 1rem;
+}
+.covid-form {
+  border-radius: 20px;
+  border: 1px solid #C9D8CC !important;
+}
+.icon-content-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.icon-css-design{
+  color: #38C5A3;
+  font-size: 3.8rem;
+  display: inline-block;
+}
+.icon-content-card span{
+  display: inline-block;
+  color: #7E7E7E;
+  font-size: 22px;
+  margin: 2rem 0rem;
+}
+.report-covid{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.report-covid h3 {
+  display: inline-block;
+  color: #7E7E7E;
+  font-size: 22px;
+  margin: 2rem 0rem;
+  width: 100%;
+  padding-left: 4rem;
+}
+
+.round-image-covid{
+  border-radius: 50%;
+  border: 1px solid #7E7E7E;
+  margin-top: 5rem;
+}
 /* 
 Animation css starts */
 /* .{
