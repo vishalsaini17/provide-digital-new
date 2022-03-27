@@ -1606,6 +1606,64 @@ width: 50% !important;
 .mid-covid-bed h2{
   color: #1A65CB;
   font-size: 72px;
+  margin: 3rem 0rem;
+}
+.covid-status-list {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+}
+.covid-status-list .line-1{
+  background-color: #FF4A64;
+  width: 117px;
+  height: 19px;
+}
+.covid-status-list .line-2{
+  background-color: #DFCD54;
+  width: 117px;
+  height: 19px;
+}
+.covid-status-list .line-3{
+  background-color: #38C5A3;
+  width: 117px;
+  height: 19px;
+}
+.covid-status-list p{
+  color: #9B9E9D;
+  padding-left: 3rem;
+  font-size: 20px;
+  margin: 0 !important;
+}
+.bedparent-card {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 133px;
+}
+.bed-icon-design{
+  color: #FF4A64;
+  font-size: 6rem;
+}
+.bed-icon-design-2{
+  color: #DFCD54;
+  font-size: 6rem;
+}
+.bed-icon-design-3{
+  color: #38C5A3;
+  font-size: 6rem;
+}
+.bedparent-card p{
+  color: #9B9E9D;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+}
+.bedparent-card h4{
+  margin: 0;
+  color: #9B9E9D;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  text-align: center;
 }
 /* 
 Animation css starts */
