@@ -1555,11 +1555,14 @@ width: 50% !important;
 }
 .scroll-parent-product-slider {
   /* width: 100% !important; */
-  overflow-x: visible;
+  overflow-x: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: 100%;
   cursor: pointer;
+  padding-left: 5%;
+  margin-left: auto;
+  width: 95%;
 }
 .left-content-product h2{
   color: #1a65cb;
