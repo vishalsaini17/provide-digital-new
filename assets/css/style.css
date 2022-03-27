@@ -1519,7 +1519,7 @@ width: 50% !important;
 }
 .servey-content-parent h2{
   color: #1A65CB;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
   padding: 0.5rem 0rem;
 }
@@ -1554,7 +1554,6 @@ width: 50% !important;
   justify-content: center;
 }
 .scroll-parent-product-slider {
-  /* width: 100% !important; */
   overflow-x: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
@@ -1609,12 +1608,15 @@ width: 50% !important;
 .mid-covid-bed h2{
   color: #1A65CB;
   font-size: 72px;
-  margin: 3rem 0rem;
+  /* margin: 3rem 0rem; */
 }
 .covid-status-list {
   display: flex;
   padding-top: 1rem;
   align-items: center;
+}
+.list-head-covid {
+  margin-top: 4rem;
 }
 .covid-status-list .line-1{
   background-color: #FF4A64;
@@ -1668,6 +1670,62 @@ width: 50% !important;
   font-size: 1rem;
   text-align: center;
 }
+
+.readmore-Covid-btn {
+  background: #ff4a64 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 20px #ff4a6461;
+  border-radius: 52px;
+  color: #fff !important;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
+.covid-content-card {
+  /* margin-top: 8rem; */
+}
+.covid-content-card h2 {
+    color: #004db5;
+    font-size: 1.9rem;
+    margin-top: 2rem;
+    padding: 0.5rem 0rem;
+    font-weight: 400;
+}
+.covid-content-card p {
+  color: #717171;
+  font-size: 22px;
+  padding-top: 2.5rem;
+  line-height: 2;
+}
+.bootom-line {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bootom-line h3{
+  color: #717171;
+  font-size: 20px;
+  padding-top: 2.5rem;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+}
+.inline-circle{
+  color: #1A65CB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  border-radius: 50%;
+  background-color: #C9EAFF;
+  margin-left: 2rem;
+  width: 65px;
+  height: 65px;
+}
+
 /* 
 Animation css starts */
 /* .{
