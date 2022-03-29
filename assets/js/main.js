@@ -1,6 +1,6 @@
 $('.slick-carousel').slick({
   infinite: true,
-  slidesToShow: 2, // Shows a three slides at a time
+  slidesToShow: 2.5, // Shows a three slides at a time
   slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
   arrows: false, // Adds arrows to sides of slider
   dots: false, // Adds the dots on the bottom

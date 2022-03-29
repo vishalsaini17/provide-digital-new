@@ -13,36 +13,48 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/newvishal.css">
   <link rel="stylesheet" href="https://unpkg.com/fullpage.js@3.1.2/dist/fullpage.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
 <body>
-
-  <section id="fullpage">
+  <!-- <section > -->
+  <section class="snap-wrapper">
     <!-- / main-navbar -->
   
   <section class="section">
-    <div class="main-navbar ">
-      <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-4">
-  
-        <div class="container-fluid m-0 p-0">
-          <a href="/" class="d-lg-none me-auto"><img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid" width="109px" /></a>
-          <div class="collapse navbar-collapse justify-content-center nav-mob-design" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-center py-lg-2">
+    <nav class="main-navbar navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid spacing-x align-items-center">
+        <div class="col px-0 nav-barnd-wrapper">
+          <a class="navbar-brand" href="./product.html" aria-label="Provide Digital Logo">
+            <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid logo-image" />
+          </a>
+        </div>
+        <button class="navbar-toggler text-cyan" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="material-icons">segment</span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav py-lg-2">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
               <li class="nav-item"><a class="nav-link" aria-current="page" href="./about.html">About</a></li>
               <li class="nav-item d-none d-lg-block">
-                <a class="navbar-brand me-0 " href="./product.html" aria-label="Provide Digital Logo">
-                  <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid logo-image wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.2s" />
+                <a class="navbar-brand nav-link" href="./product.html" aria-label="Provide Digital Logo">
+                  <img src="./assets/img/provide-digital-logo.png" alt="Provide Digital" class="img-fluid logo-image" />
                 </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle new-drop-custum" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item nav-link" href="./product.html">eC- Card App</a></li>
-                  <li><a class="dropdown-item nav-link" href="./Provide_Experience.html">Provide My Experience</a></li>
-                  <li><a class="dropdown-item nav-link" href="./covid.html">Covid Products</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">Provide My Experience</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">Covid Products</a></li>
                   <li><a class="dropdown-item nav-link" href="./contact.html">Contact Us</a></li>
                 </ul>
               </li>
@@ -59,40 +71,33 @@
                 <a href="/linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
               </div>
             </div>
-  
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
-    </div>
-    <div class="hero-section d-flex flex-wrap py-5" id="hero">
-      <div class="container px-5 px-lg-3 text-center py-5">
-        <h1 class="hero-title py-5 w-100 d-flex justify-content-center align-items-center">
-          <div class="wow SlideInTop " data-wow-duration="2s" data-wow-delay="0.8s">We are</div>
-  
-          <span class="d-none d-lg-inline-block position-relative  animation-heart">
-            <lottie-player class="heart-beat-line" src="./assets/json/heartbeat.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
-          </span>
-          <div class="wow  rotateInDownRight" data-wow-duration="2s" data-wow-delay="0.8s">Creative</div>
-  
-        </h1>
-        <div class="pb-sm-3 pb-lg-5">
-          <a href="" class="btn btn-red mt-sm-2 mt-lg-5">Request a demo <i class="fa fa-long-arrow-right custum-icons-arrow my-sign ms-2" aria-hidden="true"></i></a>
-        </div>
-      </div>
-  
-      <div class="in-partnership w-100 text-center">
-        <div class="container px-5 px-lg-3">
-          <h6>IN PARTNERSHIP WITH</h6>
-          <div class="centered py-sm-3 py-lg-5 mt-5 mt-md-3">
-            <img class="img-fluid" src="./assets/img/banner-group.png" alt="dastop-view" />
           </div>
         </div>
-  
       </div>
-    </div>
+    </nav>
+    <section class="main-banner snap-align-start">
+      <div class="container-fluid spacing-x">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="main-heading text-center">We are 
+              <lottie-player class="" src="./assets/json/heartbeat.json" background="transparent" speed="1" loop autoplay></lottie-player>
+               Creative</h1>
+          </div>
+
+          <div class="col-12 text-center mb-5">
+            <div class="line-bar"> </div>
+            <button class="btn btn-secondary rounded-pill">Explore More <i class="bi bi-arrow-right"></i></button>
+          </div>
+
+          <div class="col-12 text-center py-5 mt-4">
+            <h4>IN PARTNERSHIP WITH</h4>
+            <div class="centered py-sm-3 py-lg-5 mt-5 mt-md-3">
+              <img class="img-fluid" src="./assets/img/banner-group.png" alt="dastop-view" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </section>
   
   
@@ -141,333 +146,154 @@
       </div>
     </section> <!-- vision-mission-value -->
   
-    <section class="innovative-product-section pt-md-5 section">
-      <div class="innovative-title text-center text-md-start py-4 py-md-5 mb-md-5">
-        <div class="container px-5 px-md-3 my-2">
-          <h2 class="title">Our Innovative Products</h2>
-          <p class="subtitle">Bespoke apps and technology for the healthcare market</p>
-        </div>
+      <section class="section-title bg-yellow-100 snap-align-start snap-align-md-end spacing-y-2 spacing-y-md-1">
+      <div class="container-fluid spacing-x pb-1">
+        <h2 class="title-1">Our Distinctive Products</h2>
+        <p class="subtitle-2 col-12 col-lg-9 px-0">We provide bespoke apps and technology to healthcare industries that help ease the delivery of their services to the public.</p>
       </div>
     </section>
- 
-    <section class="section">
-      <div class="container-fluid px-5 pt-5 e-card-bg ">
-        <div class="row">
-          <div class="col-md-5 pt-4 pt-md-5 "  >
-              <div class="main_parent e-card-bg ">
-                <div class="main_box">
-                  <p class="title number-title fw-light">1</p>
-                  <p class="left_head fw-light">
-                    I 3
-                  </p>
-                  <div class="box-product"> PRODUCT</div>
-                  <div class="mobile-show-border d-md-none ">
-                    <div class="border-mobile-show"> </div>
-                  </div>
-                </div>
-                <div class="border-dot-parent">
-                  <div class="border-dot"> </div>
-                  </span>
-                </div>
-                <div class="col px-md-2 px-lg-5">
-                  <!-- <img class="img-fluid w-50   m-auto d-none" src="./assets/img/development-flow-1.png" alt="eC-Card" /> -->
-                  <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="lottie-icon ms-2" loop autoplay></lottie-player>
-  
-                  <div class="card-content-head mt-5">
-                    <h3 class="mini-title">eC-Card</h3>
-                    <p class="card-content">The accessible, secure and confidential condom card app offering free sexual health resources to young people.</p>
-                  </div>
-                </div>
+    <section class="product product-1 spacing-y-2 spacing-y-md-0 snap-align-start bg-yellow-100">
+      <div class="container-fluid spacing-start">
+        <div class="row min-h-100vh">
+          <div class="col-12 col-md-auto d-flex product-design-line">
+            <div class="product-count-wrapper">
+              <div class="product-count text-primary">
+                <span class="title-1">1</span>
+                <span class="tiny-num">| 3</span>
+                <div>PRODUCT</div>
               </div>
+            </div>
+            <div class="line-dot start"></div>
           </div>
-
-          <div class="col-md-12 col-lg-7 " >
-            <div class="row e-card-bg ">
-              <div class="col-md-12">
-                <div class="e-card-bg">
-                  <!-- Create your own class for the containing div -->
-                  <div class="slick-carousel d-none d-md-block w-100">
-                    <!-- Inside the containing div, add one div for each slide -->
-                    <div class="slide-slick">
-                      <!-- You can put an image or text inside each slide div -->
-                      <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-card-bg">
-                        <img class="img-fluid  m-auto " src="./assets/img/card-1-slide.png" alt="eC-Card" />
-                        <div class="card-content-head">
-                          <h3 class="subtitle-mini-slider">Collect Local Data</h3>
-                          <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                            health services to help control supply and compare with other data, such as teen pregnancies
-                            and STIs.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="slide-slick">
-                      <div class="d-flex align-center justify-content-center flex-xs-column flex-md-column  m-auto e-card-bg">
-                        <img class="img-fluid  m-auto " src="./assets/img/card-2-slide.png" alt="eC-Card" />
-                        <div class="card-content-head">
-                          <h3 class="subtitle-mini-slider">Highly Customisable</h3>
-                          <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                            health services to help control supply and compare with other data, such as teen pregnancies
-                            and STIs.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="slide-slick">
-                      <div class="d-flex align-center justify-content-center flex-xs-column flex-md-column  m-auto e-card-bg">
-                        <img class="img-fluid  m-auto " src="./assets/img/card-1-slide.png" alt="eC-Card" />
-                        <div class="card-content-head">
-                          <h3 class="subtitle-mini-slider">Private User Registration</h3>
-                          <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                            health services to help control supply and compare with other data, such as teen pregnancies
-                            and STIs.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="slide-slick">
-                      <div class="d-flex align-center justify-content-center flex-xs-column flex-md-column  m-auto e-card-bg">
-                        <img class="img-fluid  m-auto " src="./assets/img/card-2-slide.png" alt="eC-Card" />
-                        <div class="card-content-head">
-                          <h3 class="subtitle-mini-slider">New Data Private</h3>
-                          <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                            health services to help control supply and compare with other data, such as teen pregnancies
-                            and STIs.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="vedio-sec d-md-none ">
-                    <video width="100%" controls>
-                      <source class="vedio-control" src="./assets/vedio/SampleVideo.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-
-                </div>
+          <div class="col-12 col-md-3 me-auto align-self-center">
+            <div class="p-card mb-4 mb-md-5">
+              <lottie-player class="lp-card" src="assets/json/card-animation.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+            <h3 class="subtitle-1 text-primary">eC-Card</h3>
+            <p class="lead">The accessible, secure and confidential condom card app offering free sexual health resources to young people.</p>
+          </div>
+          <div class="col-12 col-md-7 align-self-center">
+            <div class="d-none d-md-flex flex-wrap flex-md-nowrap product-details-row">
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Collect Local Data</h4>
+                <p class="card-content-slider">Statistics on condom distribution can be collated by sexual health services to help control supply and compare with other data, such as teen pregnancies and STIs.</p>
               </div>
-              <div class="col-md-12">
-                <div class="button-sec">
-                  <button type="button" class="custum-btn btn animation-btn-hover">Find Out More <i class="fa fa-long-arrow-right custum-icons-arrow animation-btn2" aria-hidden="true"></i></button>
-                  <button type="button" class="custum-btn-2 d-none d-md-block btn">Watch Video <i class="fa fa-play custum-icons-play" aria-hidden="true"></i></button>
-                </div>
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Highly Customisable App</h4>
+                <p class="card-content-slider">Healthcare providers can modify the app according to their requirements. Customisation can be done based on the location and the needs of the customers.</p>
               </div>
-
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Private User Registration</h4>
+                <p class="card-content-slider">Service users can register without entering their don’t need to enter identifying information, such as their name in order to use the eC-Card app, their privacy is maintained.</p>
+              </div>
+            </div>
+            <div class="pt-3 pt-md-5 pb-3 mt-md-5  ">
+              <div class="d-md-none mb-3">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/WzbCEfpe20U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <button class="btn btn-secondary rounded-pill">Find Out More</button>
+              <button class="btn btn-outline-secondary rounded-pill d-none d-md-inline-block">Find Out More</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="container-fluid px-5 pt-5 e-product-bg ">
-        <div class="row">
-          <div class="col-md-5 pt-4 pt-md-5">
-            <div class="main_parent e-product-bg">
-              <div class="main_box">
-                <p class="title number-title fw-light">2</p>
-                <p class="left_head fw-light">
-                  I 3
-                </p>
-                <div class="box-product"> PRODUCT</div>
-                <div class="mobile-show-border d-md-none ">
-                  <div class="border-mobile-show"> </div>
-                </div>
-              </div>
-              <div class="border-dot-parent">
-                <div class="border-dot"> </div>
-                </span>
-              </div>
-              <div class="col px-md-2 px-lg-5">
-                <!-- <img class="img-fluid" src="./assets/img/development-flow-2.png" alt="eC-Card" /> -->
-                <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="lottie-icon ms-2" loop autoplay></lottie-player>
-                <div class="card-content-head mt-5">
-                  <h3 class="mini-title">Responses to the Covid-19 pandemic</h3>
-                  <p class="card-content">The intuitive survey deployment platform that lets people create, manage and track hundreds of surveys simultaneously.</p>
-                </div>
+    <section class="product product-2 spacing-y-2 spacing-y-md-0 snap-align-start bg-cyan-200">
+      <div class="container-fluid spacing-start">
+        <div class="row min-h-100vh">
+          <div class="col-12 col-md-auto d-flex product-design-line">
+            <div class="product-count-wrapper text-primary">
+              <div class="product-count">
+                <span class="title-1">2</span>
+                <span class="tiny-num">| 3</span>
+                <div>PRODUCT</div>
               </div>
             </div>
+            <div class="line-dot center"></div>
           </div>
-          <div class="col-md-7">
-            <div class="row e-product-bg">
-              <div class="col-md-12">
-                <div class="row ">
-                  <div class="col-md-12">
-                    <div>
-                      <!-- Create your own class for the containing div -->
-                      <div class="slick-carousel d-none d-md-block w-100">
-                        <!-- Inside the containing div, add one div for each slide -->
-                        <div class="slide-slick">
-                          <!-- You can put an image or text inside each slide div -->
-                          <div class="d-flex align-center e-product-bg justify-content-center flex-md-column  m-auto">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
-                            <div class="card-content-head ">
-                              <h3 class="subtitle-mini-slider">Collect Local Data</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="slide-slick">
-                          <div class="d-flex align-center e-product-bg  justify-content-center flex-md-column  m-auto">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
-                            <div class="card-content-head ">
-                              <h3 class="subtitle-mini-slider">Highly Customisable</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="slide-slick">
-                          <div class="d-flex align-center e-product-bg  justify-content-center flex-md-column  m-auto">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
-                            <div class="card-content-head ">
-                              <h3 class="subtitle-mini-slider">Private User Registration</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="slide-slick">
-                          <div class="d-flex align-center e-product-bg justify-content-center flex-md-column  m-auto">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
-                            <div class="card-content-head">
-                              <h3 class="subtitle-mini-slider">New Data Private</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="vedio-sec d-md-none ">
-                        <video width="100%" controls>
-                          <source class="vedio-control" src="./assets/vedio/SampleVideo.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
-
-
-                    </div>
-                  </div>
-
-                </div>
+          <div class="col-12 col-md-3 me-auto align-self-center">
+            <div class="p-card mb-4 mb-md-5">
+              <lottie-player class="lp-card" src="assets/json/card-animation.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+            <h3 class="subtitle-1 text-primary">eC-Card</h3>
+            <p class="lead">The accessible, secure and confidential condom card app offering free sexual health resources to young people.</p>
+          </div>
+          <div class="col-12 col-md-7 align-self-center">
+            <div class="d-none d-md-flex flex-wrap flex-md-nowrap product-details-row">
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Collect Local Data</h4>
+                <p class="card-content-slider">Statistics on condom distribution can be collated by sexual health services to help control supply and compare with other data, such as teen pregnancies and STIs.</p>
               </div>
-              <div class="col-md-12">
-                <div class="button-sec">
-                  <button type="button" class="custum-btn btn animation-btn-hover">Find Out More <i class="fa fa-long-arrow-right custum-icons-arrow animation-btn2" aria-hidden="true"></i></button>
-                  <button type="button" class="custum-btn-2 d-none d-md-block btn">Watch Video <i class="fa fa-play custum-icons-play" aria-hidden="true"></i></button>
-                </div>
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Highly Customisable App</h4>
+                <p class="card-content-slider">Healthcare providers can modify the app according to their requirements. Customisation can be done based on the location and the needs of the customers.</p>
               </div>
-
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Private User Registration</h4>
+                <p class="card-content-slider">Service users can register without entering their don’t need to enter identifying information, such as their name in order to use the eC-Card app, their privacy is maintained.</p>
+              </div>
+            </div>
+            <div class="pt-4 pt-md-5 mt-md-5">
+              <div class="d-md-none">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/WzbCEfpe20U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <button class="btn btn-secondary rounded-pill">Find Out More</button>
+              <button class="btn btn-outline-secondary rounded-pill d-none d-md-inline-block">Find Out More</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section">
-      <div class="container-fluid px-5 pt-5 e-responses-bg ">
-        <div class="row">
-          <div class="col-md-5 pt-4 pt-md-5">
-            <div class="main_parent e-responses-bg">
-              <div class="main_box">
-                <p class="title number-title fw-light">3</p>
-                <p class="left_head fw-light">
-                  I 3
-                </p>
-                <div class="box-product"> PRODUCT</div>
-                <div class="mobile-show-border d-md-none ">
-                  <div class="border-mobile-show"> </div>
-                </div>
-              </div>
-              <div class="border-dot-parent-3">
-                <div class="border-dot-3"> </div>
-                </span>
-              </div>
-              <div class="col px-md-2 px-lg-5">
-                <!-- <img class="img-fluid" src="./assets/img/development-flow-3.png" alt="eC-Card" /> -->
-                <lottie-player src="./assets/json/card-animation.json" background="transparent" speed="1" class="lottie-icon ms-2" loop autoplay></lottie-player>
-                <div class="card-content-head mt-5">
-                  <h3 class="mini-title">Provide My Experience</h3>
-                  <p class="card-content">The intuitive survey deployment platform that lets people create, manage and track hundreds of surveys simultaneously.</p>
-                </div>
+    <section class="product product-3 spacing-y-2 spacing-y-md-0 snap-align-start bg-pink-100">
+      <div class="container-fluid spacing-start">
+        <div class="row min-h-100vh">
+          <div class="col-12 col-md-auto d-flex product-design-line">
+            <div class="product-count-wrapper text-primary">
+              <div class="product-count">
+                <span class="title-1">3</span>
+                <span class="tiny-num">| 3</span>
+                <div>PRODUCT</div>
               </div>
             </div>
+            <div class="line-dot end"></div>
           </div>
-          <div class="col-md-7">
-            <div class="row e-responses-bg">
-              <div class="col-md-12">
-                <div class="row e-responses-bg">
-                  <div class="col-md-12">
-                    <div class="e-card-bg">
-                      <!-- Create your own class for the containing div -->
-                      <div class="slick-carousel d-none d-md-block w-100">
-                        <!-- Inside the containing div, add one div for each slide -->
-                        <div class="slide-slick">
-                          <!-- You can put an image or text inside each slide div -->
-                          <div class="d-flex align-center justify-content-center flex-md-column flex-sm-column  m-auto e-responses-bg ">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
-                            <div class="card-content-head ">
-                              <h3 class="subtitle-mini-slider">Collect Local Data</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="slide-slick">
-                          <div class="d-flex align-center justify-content-center flex-md-column flex-sm-column  m-auto e-responses-bg ">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
-                            <div class="card-content-head ">
-                              <h3 class="subtitle-mini-slider">Highly Customisable</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="slide-slick">
-                          <div class="d-flex align-center justify-content-center flex-md-column flex-sm-column  m-auto e-responses-bg ">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-1-slide.png" alt="eC-Card" />
-                            <div class="card-content-head ">
-                              <h3 class="subtitle-mini-slider">Private User Registration</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="slide-slick">
-                          <div class="d-flex align-center justify-content-center flex-md-column  m-auto e-responses-bg ">
-                            <img class="img-fluid  m-auto  mt-md-5 mt-sm-1" src="./assets/img/card-2-slide.png" alt="eC-Card" />
-                            <div class="card-content-head">
-                              <h3 class="subtitle-mini-slider">New Data Private</h3>
-                              <p class="card-content-slider">Statistics on condom distribution can be collated by sexual
-                                health services to help control supply and compare with other data, such as teen
-                                pregnancies and STIs.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="vedio-sec d-md-none ">
-                        <video width="100%" controls>
-                          <source class="vedio-control" src="./assets/vedio/SampleVideo.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                        </video>
-                      </div>
-
-
-                    </div>
-                  </div>
-
-                </div>
+          <div class="col-12 col-md-3 me-auto align-self-center">
+            <div class="p-card mb-4 mb-md-5">
+              <lottie-player class="lp-card" src="assets/json/card-animation.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            </div>
+            <h3 class="subtitle-1 text-primary">eC-Card</h3>
+            <p class="lead">The accessible, secure and confidential condom card app offering free sexual health resources to young people.</p>
+          </div>
+          <div class="col-12 col-md-7 align-self-center">
+            <div class="d-none d-md-flex flex-wrap flex-md-nowrap product-details-row">
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Collect Local Data</h4>
+                <p class="card-content-slider">Statistics on condom distribution can be collated by sexual health services to help control supply and compare with other data, such as teen pregnancies and STIs.</p>
               </div>
-              <div class="col-md-12">
-                <div class="button-sec">
-                  <button type="button" class="custum-btn btn animation-btn-hover">Find Out More <i class="fa fa-long-arrow-right custum-icons-arrow animation-btn2" aria-hidden="true"></i></button>
-                  <button type="button" class="custum-btn-2 d-none d-md-block btn">Watch Video <i class="fa fa-play custum-icons-play" aria-hidden="true"></i></button>
-                </div>
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Highly Customisable App</h4>
+                <p class="card-content-slider">Healthcare providers can modify the app according to their requirements. Customisation can be done based on the location and the needs of the customers.</p>
               </div>
-
+              <div class="col-12 col-md-5 product-details-item">
+                <img src="./assets/img/card-1-slide.png" class="img-fluid" alt="">
+                <h4 class="subtitle-mini-slider">Private User Registration</h4>
+                <p class="card-content-slider">Service users can register without entering their don’t need to enter identifying information, such as their name in order to use the eC-Card app, their privacy is maintained.</p>
+              </div>
+            </div>
+            <div class="pt-4 pt-md-5 mt-md-5">
+              <div class="d-md-none">
+                <iframe width="100%" height="200" src="https://www.youtube.com/embed/WzbCEfpe20U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <button class="btn btn-secondary rounded-pill">Find Out More</button>
+              <button class="btn btn-secondary rounded-pill d-none d-md-inline-block">Find Out More</button>
             </div>
           </div>
         </div>
@@ -709,32 +535,18 @@
   <script src="https://unpkg.com/fullpage.js@3.1.2/dist/fullpage.min.js"></script>
   <script src="./assets/js/main.js"></script>
   <script>
-    $('body').scroll(function () {
+    $('.snap-wrapper').scroll(function () {
       let isScroll = this.scrollTop > 100
-      if(isScroll && !$('.main-navbar').hasClass('mobile-nav')){
-        $('.main-navbar').addClass('mine-scroll-design')
+      if (isScroll && !$('.main-navbar').hasClass('mobile-nav')) {
+        $('.main-navbar').addClass('mobile-nav')
         $('.main-navbar').removeClass('navbar-expand-lg')
       }
-      if(!isScroll && $('.main-navbar').hasClass('mobile-nav')){
-        $('.main-navbar').addClass('mobile-nav')
+      if (!isScroll && $('.main-navbar').hasClass('mobile-nav')) {
         $('.main-navbar').removeClass('mobile-nav')
+        $('.main-navbar').addClass('navbar-expand-lg')
       }
     })
   </script>
-    <script>
-      $('.custom-body').scroll(function () {
-        let isScroll = this.scrollTop > 100
-        let parentClass = '.main-navbar .navbar'
-        if(isScroll && $(parentClass).hasClass('navbar-expand-lg')){
-          $(parentClass).addClass('mine-scroll-design')
-          $(parentClass).removeClass('navbar-expand-lg')
-        }
-        if(!isScroll && $(parentClass).hasClass('mine-scroll-design')){
-          $(parentClass).removeClass('mine-scroll-design')
-          $(parentClass).addClass('navbar-expand-lg')
-        }
-      })
-    </script>
 
 </body>
 
